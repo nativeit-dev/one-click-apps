@@ -9,14 +9,21 @@ services:
         caproverExtra:
             containerHttpPort: '8888'
             dockerfileLines:
-                - FROM jupyter/datascience-notebook:9f9e5ca8fe5a
-                - RUN pip install lxml
+                - FROM jupyter/datascience-notebook:$$cap_jupyterlab_version
+                - RUN pip install --no-cache-dir --upgrade pip
+                - RUN pip install --no-cache-dir --upgrade jupyterlab
+                - RUN pip install --no-cache-dir --upgrade jupyterlab-git
                 - RUN jupyter notebook --generate-config
                 - RUN echo 'c.NotebookApp.token = "$$cap_jupyter_default_token"' >> /home/jovyan/.jupyter/jupyter_notebook_config.py
                 - EXPOSE 8888
 caproverOneClickApp:
     variables:
+        - id: $$cap_jupyterlab_version
+          label: JupyterLab version
+          defaultValue: x86_64-ubuntu-22.04
+          description: Enter the version of JupyterLab you want to use. You can find the available versions at https://hub.docker.com/r/jupyter/datascience-notebook/tags
         - id: $$cap_jupyter_default_token
+          defaultValue: $$cap_gen_random_hex(64)
           label: Jupyter default token
           description: The default login token allows you to set a password within the application. For better experience leave empty and enable basic auth within the CaprRover dashboard.
     instructions:
