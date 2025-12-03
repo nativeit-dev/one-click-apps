@@ -1,0 +1,5113 @@
+{
+  "timestamp": "2025-12-03T00:25:28.212Z",
+  "mode": "enhanced",
+  "totalAppsChecked": 282,
+  "totalUpdatesAvailable": 208,
+  "updates": [
+    {
+      "file": "ackee.yml",
+      "serviceName": "$$cap_appname",
+      "image": "electerious/ackee",
+      "imageReference": "electerious/ackee:$$cap_ackee_version",
+      "hasVariables": true,
+      "currentVersion": "3.4.2",
+      "recommendedVersion": "develop",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "develop",
+        "versions": [
+          "develop",
+          "3.5.1",
+          "3.5.0",
+          "3.4.2",
+          "3.4.1"
+        ]
+      },
+      "github": {
+        "latestVersion": "3.5.1",
+        "releaseUrl": "https://github.com/electerious/Ackee/releases/tag/v3.5.1",
+        "publishedAt": "2025-11-19T15:50:02Z",
+        "versions": [
+          "3.5.1",
+          "3.5.0",
+          "3.4.2",
+          "3.4.1",
+          "3.4.0"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "activepieces.yml",
+      "serviceName": "$$cap_appname",
+      "image": "activepieces/activepieces",
+      "imageReference": "index.docker.io/activepieces/activepieces:$$cap_activepieces_version",
+      "hasVariables": true,
+      "currentVersion": "0.12.2",
+      "recommendedVersion": "0.72.4",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.72.4",
+        "versions": [
+          "0.72.4",
+          "0.72.3",
+          "0.72.2",
+          "0.72.1",
+          "0.72.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "actual.yml",
+      "serviceName": "$$cap_appname",
+      "image": "actualbudget/actual-server",
+      "imageReference": "actualbudget/actual-server:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "23.8.1-alpine",
+      "recommendedVersion": "sha-f3799ba-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha-f3799ba-alpine",
+        "versions": [
+          "sha-f3799ba-alpine",
+          "edge-alpine",
+          "sha-f3799ba",
+          "sha-33610fe-alpine",
+          "sha-33610fe"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "adguard-home.yml",
+      "serviceName": "$$cap_appname",
+      "image": "adguard/adguardhome",
+      "imageReference": "adguard/adguardhome:$$cap_adguard_version",
+      "hasVariables": true,
+      "currentVersion": "v0.107.29",
+      "recommendedVersion": "v0.108.0-b.79",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v0.108.0-b.79",
+        "versions": [
+          "v0.108.0-b.79",
+          "v0.107.69",
+          "v0.108.0-b.78",
+          "v0.107.68",
+          "v0.108.0-b.77"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "adminer.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/adminer",
+      "imageReference": "adminer:$$cap_adminer_version",
+      "hasVariables": true,
+      "currentVersion": "4",
+      "recommendedVersion": "standalone",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "standalone",
+        "versions": [
+          "standalone",
+          "fastcgi",
+          "5.4.1-standalone",
+          "5.4.1-fastcgi",
+          "5.4.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "airflow.yml",
+      "serviceName": "$$cap_appname",
+      "image": "bitnamilegacy/airflow",
+      "imageReference": "bitnamilegacy/airflow:$$cap_airflow_version",
+      "hasVariables": true,
+      "currentVersion": "2.3.3",
+      "recommendedVersion": "sha256-56c2112925de07aadd20923893720f9c2468c9f301e12e90f5c8af8f36f66753",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-56c2112925de07aadd20923893720f9c2468c9f301e12e90f5c8af8f36f66753",
+        "versions": [
+          "sha256-56c2112925de07aadd20923893720f9c2468c9f301e12e90f5c8af8f36f66753",
+          "3.0.5-debian-12-r0",
+          "3.0.5",
+          "sha256-a4cd51508b049219f8fa1eedf1d4ccccabdd9a6964dab780c1b4b312f05a16c4",
+          "3.0.4-debian-12-r1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "akaunting.yml",
+      "serviceName": "$$cap_appname",
+      "image": "akaunting/akaunting",
+      "imageReference": "akaunting/akaunting:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "3",
+      "recommendedVersion": "3-v",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3-v",
+        "versions": [
+          "3-v",
+          "3.1-v",
+          "3.1.19-v",
+          "3-fpm-alpine",
+          "3.1-fpm-alpine"
+        ]
+      },
+      "github": {
+        "latestVersion": "3.1.19",
+        "releaseUrl": "https://github.com/akaunting/akaunting/releases/tag/3.1.19",
+        "publishedAt": "2025-07-22T08:40:09Z",
+        "versions": [
+          "3.1.19",
+          "3.1.18",
+          "3.1.17",
+          "3.1.16",
+          "3.1.15"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "apprise.yml",
+      "serviceName": "$$cap_appname",
+      "image": "caronc/apprise",
+      "imageReference": "caronc/apprise:$$cap_apprise_version",
+      "hasVariables": true,
+      "currentVersion": "v0.7.0",
+      "recommendedVersion": "1.9.5",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "1.2",
+        "versions": [
+          "1.2",
+          "1.2.6",
+          "1.2.5",
+          "1.2.4",
+          "1.2.3"
+        ]
+      },
+      "github": {
+        "latestVersion": "1.9.5",
+        "releaseUrl": "https://github.com/caronc/apprise/releases/tag/v1.9.5",
+        "publishedAt": "2025-09-30T15:59:12Z",
+        "versions": [
+          "1.9.5",
+          "1.9.4",
+          "1.9.3",
+          "1.9.2",
+          "1.9.1"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "appsmith.yml",
+      "serviceName": "$$cap_appname-appsmith",
+      "image": "appsmith/appsmith-ce",
+      "imageReference": "index.docker.io/appsmith/appsmith-ce:$$cap_appsmith_version",
+      "hasVariables": true,
+      "currentVersion": "v1.6.5",
+      "recommendedVersion": "9076f54481b83e193913326ff181b71af659115d",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "9076f54481b83e193913326ff181b71af659115d",
+        "versions": [
+          "9076f54481b83e193913326ff181b71af659115d",
+          "release",
+          "v1.92",
+          "7e2327aef03d1524b0e44bd5d0a5d36d7dee2fb1",
+          "v1.91"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "appwrite.yml",
+      "serviceName": "$$cap_appname",
+      "image": "appwrite/appwrite",
+      "imageReference": "appwrite/appwrite:$$cap_APP_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.4.13",
+      "recommendedVersion": "1.7.5",
+      "updateType": "minor",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "1",
+        "versions": [
+          "1",
+          "1.7",
+          "1.7.5",
+          "1.8",
+          "1.8.0"
+        ]
+      },
+      "github": {
+        "latestVersion": "1.7.5",
+        "releaseUrl": "https://github.com/appwrite/appwrite/releases/tag/1.7.5",
+        "publishedAt": "2025-11-06T23:09:49Z",
+        "versions": [
+          "1.7.5",
+          "1.8.0",
+          "1.7.4",
+          "1.7.3",
+          "1.7.2"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "audiobookshelf.yml",
+      "serviceName": "$$cap_appname",
+      "image": "advplyr/audiobookshelf",
+      "imageReference": "ghcr.io/advplyr/audiobookshelf:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "2.2.14",
+      "recommendedVersion": "2.31.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.31.0",
+        "versions": [
+          "2.31.0",
+          "2.30.0",
+          "2.29.0",
+          "2.28.0",
+          "2.27.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "azuracast.yml",
+      "serviceName": "$$cap_appname",
+      "image": "azuracast/azuracast",
+      "imageReference": "ghcr.io/azuracast/azuracast:$$cap_AZURACAST_VERSION",
+      "hasVariables": true,
+      "currentVersion": "latest",
+      "recommendedVersion": "main",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "main",
+        "versions": [
+          "main",
+          "0.23.1",
+          "stable",
+          "0.23.0",
+          "0.22.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "baikal.yml",
+      "serviceName": "$$cap_appname",
+      "image": "ckulka/baikal",
+      "imageReference": "ckulka/baikal:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "0.9.2-nginx",
+      "recommendedVersion": "apache-php8.2",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "apache-php8.2",
+        "versions": [
+          "apache-php8.2",
+          "apache",
+          "nginx",
+          "nginx-php8.2",
+          "experimental-php8.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "baserow.yml",
+      "serviceName": "$$cap_appname",
+      "image": "baserow/baserow",
+      "imageReference": "baserow/baserow:$$cap_BASEROW_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.18.0",
+      "recommendedVersion": "develop-latest",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "develop-latest",
+        "versions": [
+          "develop-latest",
+          "2.0.2",
+          "2.0.1",
+          "2.0.0",
+          "1.35.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "bazarr.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/bazarr",
+      "imageReference": "linuxserver/bazarr:$$cap_bazarr_version",
+      "hasVariables": true,
+      "currentVersion": "1.0.1",
+      "recommendedVersion": "1.5.3",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.5.3",
+        "versions": [
+          "1.5.3",
+          "version-v1.5.3",
+          "v1.5.3-ls326",
+          "arm64v8-1.5.3",
+          "amd64-1.5.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "bitwardenrs.yml",
+      "serviceName": "$$cap_appname",
+      "image": "vaultwarden/server",
+      "imageReference": "vaultwarden/server:$$cap_bitwardenrs_version",
+      "hasVariables": true,
+      "currentVersion": "1.30.1",
+      "recommendedVersion": "testing-debian",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "testing-debian",
+        "versions": [
+          "testing-debian",
+          "testing-alpine",
+          "testing",
+          "sha256-3afff94efefc5a4bb89af2fb86f3ac27dff197089e8749ef3c903ed781debd78",
+          "sha256-4bae9c72a12076c766bf66d5f3c74e7127dd53ab4fdd83c0533bf460be24c9fe"
+        ]
+      },
+      "github": {
+        "latestVersion": "1.34.3",
+        "releaseUrl": "https://github.com/dani-garcia/vaultwarden/releases/tag/1.34.3",
+        "publishedAt": "2025-07-30T09:10:59Z",
+        "versions": [
+          "1.34.3",
+          "1.34.2",
+          "1.34.1",
+          "1.34.0",
+          "1.33.2"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "bookstack.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/bookstack",
+      "imageReference": "lscr.io/linuxserver/bookstack:$$cap_bookstack_version",
+      "hasVariables": true,
+      "currentVersion": "v24.10-ls172",
+      "recommendedVersion": "25.11.4",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "25.11.4",
+        "versions": [
+          "25.11.4",
+          "version-v25.11.4",
+          "v25.11.4-ls231",
+          "arm64v8-25.11.4",
+          "amd64-25.11.4"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "boxy-hq-only.yml",
+      "serviceName": "$$cap_appname",
+      "image": "boxyhq/jackson",
+      "imageReference": "boxyhq/jackson:$$cap_boxyhq_jackson_version",
+      "hasVariables": true,
+      "currentVersion": "1.13.0",
+      "recommendedVersion": "sha256-1d0b58424b1861520b85c4093191ea37dfde221f7ff5fddfe146e65269fd2826.sig",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-1d0b58424b1861520b85c4093191ea37dfde221f7ff5fddfe146e65269fd2826.sig",
+        "versions": [
+          "sha256-1d0b58424b1861520b85c4093191ea37dfde221f7ff5fddfe146e65269fd2826.sig",
+          "1.52.2",
+          "ef992c7",
+          "sha256-371d554fe56865801a619aa2d2bfc5b193f316662c18437e11767ad69b38af88.sig",
+          "1.52.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "btcpayserver.yml",
+      "serviceName": "$$cap_appname",
+      "image": "btcpayserver/btcpayserver",
+      "imageReference": "btcpayserver/btcpayserver:$$cap_BTCPAYSERVER_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.6.11",
+      "recommendedVersion": "2.2.1",
+      "updateType": "major",
+      "source": "both",
+      "dockerHub": {
+        "latestVersion": "2.2.1",
+        "versions": [
+          "2.2.1",
+          "2.2.0-1",
+          "2.2.0",
+          "2.2.0-rc1",
+          "2.1.7-rc2"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.2.1",
+        "releaseUrl": "https://github.com/btcpayserver/btcpayserver/releases/tag/v2.2.1",
+        "publishedAt": "2025-09-09T13:44:11Z",
+        "versions": [
+          "2.2.1",
+          "2.2.0",
+          "2.1.6",
+          "2.1.5",
+          "2.1.4"
+        ]
+      },
+      "note": "Docker Hub and GitHub are in sync"
+    },
+    {
+      "file": "budibase.yml",
+      "serviceName": "$$cap_appname",
+      "image": "budibase/budibase",
+      "imageReference": "budibase/budibase:$$cap_BUDIBASE_VERSION",
+      "hasVariables": true,
+      "currentVersion": "v2.0.31",
+      "recommendedVersion": "3.23.34",
+      "updateType": "major",
+      "source": "both",
+      "dockerHub": {
+        "latestVersion": "3.23.34",
+        "versions": [
+          "3.23.34",
+          "buildcache-aas",
+          "buildcache-amd64",
+          "buildcache-arm64",
+          "3.23.34-amd64"
+        ]
+      },
+      "github": {
+        "latestVersion": "3.23.34",
+        "releaseUrl": "https://github.com/Budibase/budibase/releases/tag/3.23.34",
+        "publishedAt": "2025-12-02T16:06:00Z",
+        "versions": [
+          "3.23.34",
+          "3.23.33",
+          "3.23.32",
+          "3.23.31",
+          "3.23.30"
+        ]
+      },
+      "note": "Docker Hub and GitHub are in sync"
+    },
+    {
+      "file": "bugsink.yml",
+      "serviceName": "$$cap_appname",
+      "image": "bugsink/bugsink",
+      "imageReference": "bugsink/bugsink:$$cap_BUGSINK_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.7.4",
+      "recommendedVersion": "2.0.6",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "2",
+        "versions": [
+          "2",
+          "2.0",
+          "2.0.6",
+          "2.0.5",
+          "2.0.4"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.0.6",
+        "releaseUrl": "https://github.com/bugsink/bugsink/releases/tag/2.0.6",
+        "publishedAt": "2025-11-08T22:41:34Z",
+        "versions": [
+          "2.0.6",
+          "2.0.5",
+          "2.0.4",
+          "2.0.3",
+          "2.0.2"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "cachet.yml",
+      "serviceName": "$$cap_appname",
+      "image": "cachethq/docker",
+      "imageReference": "cachethq/docker:$$cap_cachet_version",
+      "hasVariables": true,
+      "currentVersion": "2.3.15",
+      "recommendedVersion": "2.3.18",
+      "updateType": "patch",
+      "source": "both",
+      "dockerHub": {
+        "latestVersion": "2.3.18",
+        "versions": [
+          "2.3.18",
+          "2.3.17",
+          "2.3.14",
+          "2.3-latest",
+          "2.3.16"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.3.18",
+        "releaseUrl": "https://github.com/cachethq/Docker/releases/tag/v2.3.18",
+        "publishedAt": "2021-01-15T06:22:21Z",
+        "versions": [
+          "2.3.18",
+          "2.3.17",
+          "2.3.16",
+          "2.3.15",
+          "2.3.14"
+        ]
+      },
+      "note": "Docker Hub and GitHub are in sync"
+    },
+    {
+      "file": "calcom.yml",
+      "serviceName": "$$cap_appname",
+      "image": "calcom/cal.com",
+      "imageReference": "calcom/cal.com:$$cap_CALCOM_VERSION",
+      "hasVariables": true,
+      "currentVersion": "v3.1.3",
+      "recommendedVersion": "v5.9.7-arm",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v5.9.7-arm",
+        "versions": [
+          "v5.9.7-arm",
+          "v5.9.7",
+          "v5.9.6-arm",
+          "v5.9.6",
+          "v5.9.5"
+        ]
+      },
+      "github": {
+        "latestVersion": "5.9.7",
+        "releaseUrl": "https://github.com/calcom/cal.com/releases/tag/v5.9.7",
+        "publishedAt": "2025-12-02T04:24:01Z",
+        "versions": [
+          "5.9.7",
+          "5.9.6",
+          "5.9.5",
+          "5.9.4",
+          "5.9.3"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "calibre.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/calibre-web",
+      "imageReference": "lscr.io/linuxserver/calibre-web:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "2021.10.24",
+      "recommendedVersion": "nightly-version-cf01bd7a",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "nightly-version-cf01bd7a",
+        "versions": [
+          "nightly-version-cf01bd7a",
+          "nightly-cf01bd7a-ls309",
+          "0.6.25",
+          "version-0.6.25",
+          "0.6.25-ls359"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "call-only.yml",
+      "serviceName": "$$cap_appname",
+      "image": "calcom/cal.com",
+      "imageReference": "calcom/cal.com:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v2.5.4",
+      "recommendedVersion": "v5.9.7-arm",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v5.9.7-arm",
+        "versions": [
+          "v5.9.7-arm",
+          "v5.9.7",
+          "v5.9.6-arm",
+          "v5.9.6",
+          "v5.9.5"
+        ]
+      },
+      "github": {
+        "latestVersion": "5.9.7",
+        "releaseUrl": "https://github.com/calcom/cal.com/releases/tag/v5.9.7",
+        "publishedAt": "2025-12-02T04:24:01Z",
+        "versions": [
+          "5.9.7",
+          "5.9.6",
+          "5.9.5",
+          "5.9.4",
+          "5.9.3"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "chadburn.yml",
+      "serviceName": "$$cap_appname",
+      "image": "premoweb/chadburn",
+      "imageReference": "ghcr.io/premoweb/chadburn:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "1.0.1",
+      "recommendedVersion": "main",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "main",
+        "versions": [
+          "main",
+          "b3e2375c",
+          "75e9ef33",
+          "f2ea1276",
+          "1.9.5"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "changedetection.yml",
+      "serviceName": "$$cap_appname",
+      "image": "dgtlmoon/changedetection.io",
+      "imageReference": "dgtlmoon/changedetection.io:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "0.40.2",
+      "recommendedVersion": "0.51.4",
+      "updateType": "minor",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "0",
+        "versions": [
+          "0",
+          "0.51",
+          "0.51.4",
+          "0.51.3",
+          "0.51.2"
+        ]
+      },
+      "github": {
+        "latestVersion": "0.51.4",
+        "releaseUrl": "https://github.com/dgtlmoon/changedetection.io/releases/tag/0.51.4",
+        "publishedAt": "2025-11-28T12:26:59Z",
+        "versions": [
+          "0.51.4",
+          "0.51.3",
+          "0.51.2",
+          "0.51.1",
+          "0.51.01"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "clickhouse.yml",
+      "serviceName": "$$cap_appname",
+      "image": "clickhouse/clickhouse-server",
+      "imageReference": "clickhouse/clickhouse-server:$$cap_clickhouse_version",
+      "hasVariables": true,
+      "currentVersion": "24.11-alpine",
+      "recommendedVersion": "head",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "head",
+        "versions": [
+          "head",
+          "head-alpine",
+          "latest-alpine",
+          "25.11-alpine",
+          "25.11.2-alpine"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "cockpit.yml",
+      "serviceName": "$$cap_appname",
+      "image": "cockpithq/cockpit",
+      "imageReference": "cockpithq/cockpit:core-$$cap_COCKPIT_VERSION",
+      "hasVariables": true,
+      "currentVersion": "core-2.5.2",
+      "recommendedVersion": "pro-2.12.1-unit",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "pro-2.12.1-unit",
+        "versions": [
+          "pro-2.12.1-unit",
+          "pro-2.12.1",
+          "pro-latest",
+          "core-2.12.1-unit",
+          "core-2.12.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "codimd.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/codimd",
+      "imageReference": "linuxserver/codimd:1.6.0-ls44",
+      "hasVariables": false,
+      "currentVersion": "1.6.0-ls44",
+      "recommendedVersion": "version-1.7.0",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "version-1.7.0",
+        "versions": [
+          "version-1.7.0",
+          "1.7.0-ls55",
+          "arm64v8-version-1.7.0",
+          "arm32v7-version-1.7.0",
+          "amd64-version-1.7.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "collabora-online.yml",
+      "serviceName": "$$cap_appname",
+      "image": "collabora/code",
+      "imageReference": "collabora/code:$$cap_collabora_version",
+      "hasVariables": true,
+      "currentVersion": "25.04.2.1.1",
+      "recommendedVersion": "sha256-9a6eb1042fa38f80127ae4b0e9c6f0ac549b267ecc8433bc7bb906eeee0ae176.sig",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-9a6eb1042fa38f80127ae4b0e9c6f0ac549b267ecc8433bc7bb906eeee0ae176.sig",
+        "versions": [
+          "sha256-9a6eb1042fa38f80127ae4b0e9c6f0ac549b267ecc8433bc7bb906eeee0ae176.sig",
+          "sha256-ad02532624b4d0464bfc1a1cec54d8c9346cd238a4fdf11feb1b73cd8ff3bf93.sig",
+          "sha256-8e513c90c3ef5f7f0419f5fe1198dfa4681bdac7eb266535014a87a3a335935b.sig",
+          "sha256-d7020a039a85447827e4fe79c6e81b093f12e8bdb009bcc36c940b908d29cfb2.sig",
+          "25.04.7.3.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "corteza.yml",
+      "serviceName": "$$cap_appname",
+      "image": "cortezaproject/corteza",
+      "imageReference": "cortezaproject/corteza:$$corteza_version",
+      "hasVariables": true,
+      "currentVersion": "2021.9.5",
+      "recommendedVersion": "2024.9.6",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "2024.9",
+        "versions": [
+          "2024.9",
+          "2024.9.6",
+          "2024.9.6-rc.1",
+          "2024.9.6-dev.2",
+          "2024.9.5"
+        ]
+      },
+      "github": {
+        "latestVersion": "2024.9.6",
+        "releaseUrl": "https://github.com/cortezaproject/corteza/releases/tag/2024.9.6",
+        "publishedAt": "2025-11-19T14:48:34Z",
+        "versions": [
+          "2024.9.6",
+          "2024.9.5",
+          "2024.9.4",
+          "2024.9.3",
+          "2024.9.2"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "couchdb.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/couchdb",
+      "imageReference": "couchdb:$$cap_couchdb_version",
+      "hasVariables": true,
+      "currentVersion": "2",
+      "recommendedVersion": "3.5.1-nouveau",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3.5.1-nouveau",
+        "versions": [
+          "3.5.1-nouveau",
+          "3.5.1",
+          "3.5-nouveau",
+          "3.5",
+          "3.4.3-nouveau"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "countly.yml",
+      "serviceName": "$$cap_appname",
+      "image": "countly/countly-server",
+      "imageReference": "countly/countly-server:$$cap_countly_version",
+      "hasVariables": true,
+      "currentVersion": "19.08.1",
+      "recommendedVersion": "25.03.29",
+      "updateType": "major",
+      "source": "both",
+      "dockerHub": {
+        "latestVersion": "25.03.29",
+        "versions": [
+          "25.03.29",
+          "25.03.28",
+          "24.05.47",
+          "24.10.14",
+          "24.05.46"
+        ]
+      },
+      "github": {
+        "latestVersion": "25.03.29",
+        "releaseUrl": "https://github.com/Countly/countly-server/releases/tag/25.03.29",
+        "publishedAt": "2025-12-02T13:59:54Z",
+        "versions": [
+          "25.03.29",
+          "25.03.28",
+          "24.05.47",
+          "25.03.27",
+          "24.10.14"
+        ]
+      },
+      "note": "Docker Hub and GitHub are in sync"
+    },
+    {
+      "file": "cronicle.yml",
+      "serviceName": "$$cap_appname",
+      "image": "soulteary/cronicle",
+      "imageReference": "soulteary/cronicle:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "0.9.17",
+      "recommendedVersion": "sha-b321cdd",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha-b321cdd",
+        "versions": [
+          "sha-b321cdd",
+          "0",
+          "0.9",
+          "0.9.80",
+          "sha-672ba36"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "databag.yml",
+      "serviceName": "$$cap_appname",
+      "image": "balzack/databag",
+      "imageReference": "balzack/databag:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "0.1.17",
+      "recommendedVersion": "1.1.1021",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "0.1.18",
+        "versions": [
+          "0.1.18",
+          "test",
+          "0.1.17",
+          "0.1.16",
+          "0.1.15"
+        ]
+      },
+      "github": {
+        "latestVersion": "1.1.1021",
+        "releaseUrl": "https://github.com/balzack/databag/releases/tag/v1.1.1021",
+        "publishedAt": "2024-06-20T20:35:26Z",
+        "versions": [
+          "1.1.1021",
+          "1.1.1020",
+          "1.1.1019",
+          "1.1.14",
+          "V1.1.13b"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "davos.yml",
+      "serviceName": "$$cap_appname-davos",
+      "image": "linuxserver/davos",
+      "imageReference": "lscr.io/linuxserver/davos:$$cap_davos_version",
+      "hasVariables": true,
+      "currentVersion": "2.2.1",
+      "recommendedVersion": "2.2.2",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.2.2",
+        "versions": [
+          "2.2.2",
+          "version-2.2.2",
+          "2.2.2-ls220",
+          "arm64v8-2.2.2",
+          "amd64-2.2.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "deluge.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/deluge",
+      "imageReference": "linuxserver/deluge:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "2.1.1",
+      "recommendedVersion": "2.2.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.2.0",
+        "versions": [
+          "2.2.0",
+          "version-2.2.0-r1",
+          "2.2.0-r1-ls357",
+          "arm64v8-2.2.0",
+          "amd64-2.2.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "directus-mysql-redis.yml",
+      "serviceName": "$$cap_appname",
+      "image": "directus/directus",
+      "imageReference": "directus/directus:$$cap_directus_tag",
+      "hasVariables": true,
+      "currentVersion": "9.22.1",
+      "recommendedVersion": "11.13.4",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "11",
+        "versions": [
+          "11",
+          "11.13",
+          "11.13.4",
+          "11.13.3",
+          "11.13.2"
+        ]
+      },
+      "github": {
+        "latestVersion": "11.13.4",
+        "releaseUrl": "https://github.com/directus/directus/releases/tag/v11.13.4",
+        "publishedAt": "2025-11-21T16:24:20Z",
+        "versions": [
+          "11.13.4",
+          "11.13.3",
+          "11.13.2",
+          "11.13.1",
+          "11.13.0"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "directus.yml",
+      "serviceName": "$$cap_appname",
+      "image": "directus/directus",
+      "imageReference": "directus/directus:$$cap_directus_tag",
+      "hasVariables": true,
+      "currentVersion": "10.4.3",
+      "recommendedVersion": "11.13.4",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "11",
+        "versions": [
+          "11",
+          "11.13",
+          "11.13.4",
+          "11.13.3",
+          "11.13.2"
+        ]
+      },
+      "github": {
+        "latestVersion": "11.13.4",
+        "releaseUrl": "https://github.com/directus/directus/releases/tag/v11.13.4",
+        "publishedAt": "2025-11-21T16:24:20Z",
+        "versions": [
+          "11.13.4",
+          "11.13.3",
+          "11.13.2",
+          "11.13.1",
+          "11.13.0"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "discourse.yml",
+      "serviceName": "$$cap_appname",
+      "image": "bitnamilegacy/discourse",
+      "imageReference": "docker.io/bitnamilegacy/discourse:$$cap_discourse_version",
+      "hasVariables": true,
+      "currentVersion": "2.8.11",
+      "recommendedVersion": "sha256-e071657f2a0ca077856befd12392e91dfd4f122482610aa70ea1d1f4d6a705a1",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-e071657f2a0ca077856befd12392e91dfd4f122482610aa70ea1d1f4d6a705a1",
+        "versions": [
+          "sha256-e071657f2a0ca077856befd12392e91dfd4f122482610aa70ea1d1f4d6a705a1",
+          "sha256-db7e1f8b8a0c44f9b45f04f0045e416b5b4db2a91cba0cc5ecc2f80757de12f3",
+          "sha256-d45b338a4f1c9fb07ebf587df6dcf2beb34fff13019dc6dd58635a69940106fc",
+          "sha256-b7d8ec6888db59873d72840e5c8fd18cd958257a79f66062fe9ff87e73fccb89",
+          "sha256-b764c08b0101cbc8eea4ccb373cef71b7b084a44e85989ce3ace28edaca412ab"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "docmost.yml",
+      "serviceName": "$$cap_appname",
+      "image": "docmost/docmost",
+      "imageReference": "docmost/docmost:$$cap_docmost_version",
+      "hasVariables": true,
+      "currentVersion": "0.3.1",
+      "recommendedVersion": "0.24.0-alpha-1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.24.0-alpha-1",
+        "versions": [
+          "0.24.0-alpha-1",
+          "0.24.0-alpha",
+          "0.23.2-cloud",
+          "0.23.2",
+          "0.23"
+        ]
+      },
+      "github": {
+        "latestVersion": "0.23.2",
+        "releaseUrl": "https://github.com/docmost/docmost/releases/tag/v0.23.2",
+        "publishedAt": "2025-09-18T17:18:59Z",
+        "versions": [
+          "0.23.2",
+          "0.23.1",
+          "0.23.0",
+          "0.22.2",
+          "0.22.1"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "docuseal.yml",
+      "serviceName": "$$cap_appname",
+      "image": "docuseal/docuseal",
+      "imageReference": "index.docker.io/docuseal/docuseal:$$cap_docuseal_version",
+      "hasVariables": true,
+      "currentVersion": "1.2.4",
+      "recommendedVersion": "2.2.4",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.2.4",
+        "versions": [
+          "2.2.4",
+          "2.2.3",
+          "2.2.2",
+          "2.2.1",
+          "2.2.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "dolibarr.yml",
+      "serviceName": "$$cap_appname",
+      "image": "upshift/dolibarr",
+      "imageReference": "upshift/dolibarr:$$cap_dolibarr-version",
+      "hasVariables": true,
+      "currentVersion": "11.0",
+      "recommendedVersion": "testing",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "testing",
+        "versions": [
+          "testing",
+          "master",
+          "22.0",
+          "22.0.3",
+          "22.0.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "dozzle.yml",
+      "serviceName": "$$cap_appname",
+      "image": "amir20/dozzle",
+      "imageReference": "amir20/dozzle:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v3.7.1",
+      "recommendedVersion": "8.14.10",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "v8",
+        "versions": [
+          "v8",
+          "v8.14",
+          "v8.14.10",
+          "pr-4271",
+          "master"
+        ]
+      },
+      "github": {
+        "latestVersion": "8.14.10",
+        "releaseUrl": "https://github.com/amir20/dozzle/releases/tag/v8.14.10",
+        "publishedAt": "2025-12-02T18:46:40Z",
+        "versions": [
+          "8.14.10",
+          "8.14.9",
+          "8.14.8",
+          "8.14.7",
+          "8.14.6"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "dragonflydb.yml",
+      "serviceName": "$$cap_appname",
+      "image": "dragonflydb/dragonfly",
+      "imageReference": "docker.dragonflydb.io/dragonflydb/dragonfly:$$cap_dragonflydb_version",
+      "hasVariables": true,
+      "currentVersion": "v1.14.0",
+      "recommendedVersion": "v1.27.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v1.27.1",
+        "versions": [
+          "v1.27.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "drone-gitea.yml",
+      "serviceName": "$$cap_appname",
+      "image": "drone/drone",
+      "imageReference": "drone/drone:$$cap_drone_version",
+      "hasVariables": true,
+      "currentVersion": "1.9.0",
+      "recommendedVersion": "2.26.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.26.0",
+        "versions": [
+          "2.26.0",
+          "2.26",
+          "2",
+          "2.26.0-linux-arm64",
+          "2.26-linux-arm64"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "eclipse-mosquitto.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/eclipse-mosquitto",
+      "imageReference": "eclipse-mosquitto:$$cap_eclipse_version",
+      "hasVariables": true,
+      "currentVersion": "latest",
+      "recommendedVersion": "openssl",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "openssl",
+        "versions": [
+          "openssl",
+          "2.0.22-openssl",
+          "2.0.22",
+          "2.0-openssl",
+          "2.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "elkarbackup.yml",
+      "serviceName": "$$cap_appname",
+      "image": "elkarbackup/elkarbackup",
+      "imageReference": "elkarbackup/elkarbackup:$$cap_elkar_version",
+      "hasVariables": true,
+      "currentVersion": "2",
+      "recommendedVersion": "2.1",
+      "updateType": "other",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "2",
+        "versions": [
+          "2",
+          "2.1",
+          "2.1.0",
+          "2.0",
+          "2.0.2"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.1",
+        "releaseUrl": "https://github.com/elkarbackup/elkarbackup/releases/tag/v2.1",
+        "publishedAt": "2021-05-20T15:50:25Z",
+        "versions": [
+          "2.1",
+          "2.0.2",
+          "2.0.1",
+          "2.0.0",
+          "1.3.5"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "etherpad.yml",
+      "serviceName": "$$cap_appname",
+      "image": "etherpad/etherpad",
+      "imageReference": "etherpad/etherpad:$$cap_etherpad_version",
+      "hasVariables": true,
+      "currentVersion": "1.8.0",
+      "recommendedVersion": "develop",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "develop",
+        "versions": [
+          "develop",
+          "2",
+          "2.5",
+          "2.5.3",
+          "2.5.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "ferretdb.yml",
+      "serviceName": "$$cap_appname",
+      "image": "ferretdb/ferretdb",
+      "imageReference": "ghcr.io/ferretdb/ferretdb:$$cap_ferretdb_version",
+      "hasVariables": true,
+      "currentVersion": "2.2.0",
+      "recommendedVersion": "2.7.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.7.0",
+        "versions": [
+          "2.7.0",
+          "2.7",
+          "2",
+          "2.5.0",
+          "2.5"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "fider.yml",
+      "serviceName": "$$cap_appname",
+      "image": "getfider/fider",
+      "imageReference": "getfider/fider:$$cap_fider_version",
+      "hasVariables": true,
+      "currentVersion": "0.21.1",
+      "recommendedVersion": "PR_1388",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "PR_1388",
+        "versions": [
+          "PR_1388",
+          "v0.31.0",
+          "main",
+          "SHA_73d1508802746eedb7224e9045f57b5a201eee2a",
+          "SHA_a2b7e838947ef88aed09242cad151651e6fa028b"
+        ]
+      },
+      "github": {
+        "latestVersion": "0.31.0",
+        "releaseUrl": "https://github.com/getfider/fider/releases/tag/v0.31.0",
+        "publishedAt": "2025-11-19T22:18:40Z",
+        "versions": [
+          "0.31.0",
+          "0.30.0",
+          "0.29.0",
+          "0.28.1",
+          "0.28.0"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "filebrowser.yml",
+      "serviceName": "$$cap_appname",
+      "image": "filebrowser/filebrowser",
+      "imageReference": "filebrowser/filebrowser:$$cap_filebrowser_version",
+      "hasVariables": true,
+      "currentVersion": "v2.36.1-s6",
+      "recommendedVersion": "v2-s6",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v2-s6",
+        "versions": [
+          "v2-s6",
+          "v2.50.0-s6",
+          "s6",
+          "v2",
+          "v2.50.0"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.50.0",
+        "releaseUrl": "https://github.com/filebrowser/filebrowser/releases/tag/v2.50.0",
+        "publishedAt": "2025-11-30T08:19:04Z",
+        "versions": [
+          "2.50.0",
+          "2.49.0",
+          "2.48.2",
+          "2.48.1",
+          "2.48.0"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "filestash.yml",
+      "serviceName": "$$cap_appname",
+      "image": "machines/filestash",
+      "imageReference": "machines/filestash:$$cap_filestash_version",
+      "hasVariables": true,
+      "currentVersion": "b7b45f2",
+      "recommendedVersion": "lowa",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "lowa",
+        "versions": [
+          "lowa",
+          "latest-amd64",
+          "trial",
+          "latest-arm64v8",
+          "6b271d3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "filezilla.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/filezilla",
+      "imageReference": "linuxserver/filezilla:$$cap_fz_version",
+      "hasVariables": true,
+      "currentVersion": "3.51.0-r1-ls6",
+      "recommendedVersion": "3.68.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3.68.1",
+        "versions": [
+          "3.68.1",
+          "version-3.68.1-r0",
+          "3.68.1-r0-ls223",
+          "arm64v8-3.68.1",
+          "amd64-3.68.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "firefox.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/firefox",
+      "imageReference": "lscr.io/linuxserver/firefox:$$cap_firefox_version",
+      "hasVariables": true,
+      "currentVersion": "78.13.0",
+      "recommendedVersion": "1145.0.2",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1145.0.2",
+        "versions": [
+          "1145.0.2",
+          "version-1145.0.2build1-1xtradeb1.2404.1",
+          "1145.0.2build1-1xtradeb1.2404.1-ls51",
+          "arm64v8-1145.0.2",
+          "amd64-1145.0.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "flagsmith.yml",
+      "serviceName": "$$cap_appname",
+      "image": "flagsmith/flagsmith",
+      "imageReference": "flagsmith/flagsmith:$$cap_flagsmith_tag",
+      "hasVariables": true,
+      "currentVersion": "2.14.3",
+      "recommendedVersion": "2.203.0",
+      "updateType": "minor",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "2.202.0",
+        "versions": [
+          "2.202.0",
+          "2.202",
+          "2.201.3",
+          "2.201",
+          "2.201.2"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.203.0",
+        "releaseUrl": "https://github.com/Flagsmith/flagsmith/releases/tag/v2.203.0",
+        "publishedAt": "2025-12-02T11:02:49Z",
+        "versions": [
+          "2.203.0",
+          "2.202.0",
+          "2.201.3",
+          "2.201.2",
+          "2.201.1"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "flaresolverr.yml",
+      "serviceName": "$$cap_appname",
+      "image": "flaresolverr/flaresolverr",
+      "imageReference": "ghcr.io/flaresolverr/flaresolverr:$$cap_flaresolverr_version",
+      "hasVariables": true,
+      "currentVersion": "v3.3.21",
+      "recommendedVersion": "v3.4.6",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v3.4.6",
+        "versions": [
+          "v3.4.6",
+          "v3.4.5",
+          "v3.4.4",
+          "v3.4.3",
+          "v3.4.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "forge_minecraft.yml",
+      "serviceName": "$$cap_appname",
+      "image": "itzg/minecraft-server",
+      "imageReference": "itzg/minecraft-server:$$java_version",
+      "hasVariables": true,
+      "currentVersion": "java20",
+      "recommendedVersion": "java21",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "java21",
+        "versions": [
+          "java21",
+          "java21-jdk",
+          "java8-multiarch",
+          "java8",
+          "java11"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "formbricks.yml",
+      "serviceName": "$$cap_appname",
+      "image": "formbricks/formbricks",
+      "imageReference": "formbricks/formbricks:$$cap_formbricks_tag",
+      "hasVariables": true,
+      "currentVersion": "2.1.1",
+      "recommendedVersion": "4.3.1",
+      "updateType": "major",
+      "source": "github",
+      "dockerHub": {
+        "latestVersion": "3.6.0",
+        "versions": [
+          "3.6.0",
+          "3.5.1",
+          "3.5.0",
+          "3.4.1",
+          "3.4.0"
+        ]
+      },
+      "github": {
+        "latestVersion": "4.3.1",
+        "releaseUrl": "https://github.com/formbricks/formbricks/releases/tag/4.3.1",
+        "publishedAt": "2025-12-01T16:33:22Z",
+        "versions": [
+          "4.3.1",
+          "4.3.0",
+          "4.2.0",
+          "4.1.2",
+          "4.1.1"
+        ]
+      },
+      "note": "GitHub has a newer release, Docker image may not be built yet"
+    },
+    {
+      "file": "foundryvtt.yml",
+      "serviceName": "$$cap_appname",
+      "image": "felddy/foundryvtt",
+      "imageReference": "felddy/foundryvtt:$$cap_foundry_version",
+      "hasVariables": true,
+      "currentVersion": "0.8.9",
+      "recommendedVersion": "sha-f85ddd9",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha-f85ddd9",
+        "versions": [
+          "sha-f85ddd9",
+          "develop",
+          "sha-9dc331a",
+          "sha-06d0c74",
+          "dependabot-github_actions-github-actions-all-a6aa76766d"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "freshrss.yml",
+      "serviceName": "$$cap_appname",
+      "image": "freshrss/freshrss",
+      "imageReference": "freshrss/freshrss:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "1.20.0",
+      "recommendedVersion": "edge-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "edge-alpine",
+        "versions": [
+          "edge-alpine",
+          "1",
+          "1.27.1",
+          "alpine",
+          "1-alpine"
+        ]
+      },
+      "github": {
+        "latestVersion": "1.27.1",
+        "releaseUrl": "https://github.com/FreshRSS/FreshRSS/releases/tag/1.27.1",
+        "publishedAt": "2025-09-27T13:07:26Z",
+        "versions": [
+          "1.27.1",
+          "1.27.0",
+          "1.26.3",
+          "1.26.2",
+          "1.26.1"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "fusionauth.yml",
+      "serviceName": "$$cap_appname-fusionauth",
+      "image": "fusionauth/fusionauth-app",
+      "imageReference": "fusionauth/fusionauth-app:$$cap_fusionauth_version",
+      "hasVariables": true,
+      "currentVersion": "1.7.2",
+      "recommendedVersion": "1.61.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.61.1",
+        "versions": [
+          "1.61.1",
+          "1.61.0",
+          "1.60.2",
+          "1.60.1",
+          "1.60.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "ghost-only.yml",
+      "serviceName": "$$cap_appname",
+      "image": "bitnamilegacy/ghost",
+      "imageReference": "bitnamilegacy/ghost:$$cap_ghost_version",
+      "hasVariables": true,
+      "currentVersion": "5.2.2",
+      "recommendedVersion": "sha256-ad175054b46408ff1b4d894da005421773f2dedc2da353b79016b89f02f2ebec",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-ad175054b46408ff1b4d894da005421773f2dedc2da353b79016b89f02f2ebec",
+        "versions": [
+          "sha256-ad175054b46408ff1b4d894da005421773f2dedc2da353b79016b89f02f2ebec",
+          "6.0.5-debian-12-r0",
+          "6.0.5",
+          "sha256-f0e03af331b84927b308f110c31d6e57483051a0610ff2fba84860d672c384f2",
+          "sha256-de6775d2c8b04a968cdd2c8a80cfdbc4012333feee85b10a553ee725657470e2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "ghost.yml",
+      "serviceName": "$$cap_appname",
+      "image": "bitnamilegacy/ghost",
+      "imageReference": "bitnamilegacy/ghost:$$cap_ghost_version",
+      "hasVariables": true,
+      "currentVersion": "5.2.2",
+      "recommendedVersion": "sha256-ad175054b46408ff1b4d894da005421773f2dedc2da353b79016b89f02f2ebec",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-ad175054b46408ff1b4d894da005421773f2dedc2da353b79016b89f02f2ebec",
+        "versions": [
+          "sha256-ad175054b46408ff1b4d894da005421773f2dedc2da353b79016b89f02f2ebec",
+          "6.0.5-debian-12-r0",
+          "6.0.5",
+          "sha256-f0e03af331b84927b308f110c31d6e57483051a0610ff2fba84860d672c384f2",
+          "sha256-de6775d2c8b04a968cdd2c8a80cfdbc4012333feee85b10a553ee725657470e2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "ghostfolio.yml",
+      "serviceName": "$$cap_appname",
+      "image": "ghostfolio/ghostfolio",
+      "imageReference": "ghostfolio/ghostfolio:$$cap_GHOSTFOLIO_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.205.1",
+      "recommendedVersion": "2.221.0",
+      "updateType": "major",
+      "source": "both",
+      "dockerHub": {
+        "latestVersion": "2.221.0",
+        "versions": [
+          "2.221.0",
+          "2",
+          "2.220.0",
+          "2.219.0",
+          "2.218.0"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.221.0",
+        "releaseUrl": "https://github.com/ghostfolio/ghostfolio/releases/tag/2.221.0",
+        "publishedAt": "2025-12-01T19:53:08Z",
+        "versions": [
+          "2.221.0",
+          "2.220.0",
+          "2.219.0",
+          "2.218.0",
+          "2.217.1"
+        ]
+      },
+      "note": "Docker Hub and GitHub are in sync"
+    },
+    {
+      "file": "gitea.yml",
+      "serviceName": "$$cap_appname",
+      "image": "gitea/gitea",
+      "imageReference": "gitea/gitea:$$cap_gitea_version",
+      "hasVariables": true,
+      "currentVersion": "1.21.1",
+      "recommendedVersion": "main-nightly-rootless",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "main-nightly-rootless",
+        "versions": [
+          "main-nightly-rootless",
+          "main-nightly",
+          "1.25-nightly",
+          "1.25-nightly-rootless",
+          "latest-rootless"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "gitlab-ce.yml",
+      "serviceName": "$$cap_appname",
+      "image": "gitlab/gitlab-ce",
+      "imageReference": "gitlab/gitlab-ce:$$cap_gitlab_version",
+      "hasVariables": true,
+      "currentVersion": "11.9.8-ce.0",
+      "recommendedVersion": "18.4.5-ce.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "18.4.5-ce.0",
+        "versions": [
+          "18.4.5-ce.0",
+          "18.5.3-ce.0",
+          "18.6.1-ce.0",
+          "18.6.0-ce.0",
+          "18.3.6-ce.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "gitlab-runner.yml",
+      "serviceName": "$$cap_appname",
+      "image": "gitlab/gitlab-runner",
+      "imageReference": "gitlab/gitlab-runner:$$cap_gitlab-runner_version",
+      "hasVariables": true,
+      "currentVersion": "v11.11.0",
+      "recommendedVersion": "alpine-bleeding",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "alpine-bleeding",
+        "versions": [
+          "alpine-bleeding",
+          "alpine3.21-bleeding",
+          "bleeding",
+          "alpine-0323ffcc",
+          "alpine3.21-0323ffcc"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "grafana.yml",
+      "serviceName": "$$cap_appname",
+      "image": "grafana/grafana",
+      "imageReference": "grafana/grafana:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "7.4.3",
+      "recommendedVersion": "main-ubuntu",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "main-ubuntu",
+        "versions": [
+          "main-ubuntu",
+          "main",
+          "nightly-ubuntu",
+          "12.4.0-19842126546-ubuntu",
+          "12.4.0-19842126546"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "greenlight.yml",
+      "serviceName": "$$cap_appname-greenlight",
+      "image": "bigbluebutton/greenlight",
+      "imageReference": "bigbluebutton/greenlight:v2",
+      "hasVariables": false,
+      "currentVersion": "v2",
+      "recommendedVersion": "master",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "master",
+        "versions": [
+          "master",
+          "v3.6.3-amazonlinux",
+          "v3.6.3-alpine",
+          "v3.6",
+          "v3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "grocy.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/grocy",
+      "imageReference": "linuxserver/grocy:$$cap_grocy_version",
+      "hasVariables": true,
+      "currentVersion": "v2.7.1-ls58",
+      "recommendedVersion": "4.5.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "4.5.0",
+        "versions": [
+          "4.5.0",
+          "version-v4.5.0",
+          "v4.5.0-ls308",
+          "arm64v8-4.5.0",
+          "amd64-4.5.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "guacamole.yml",
+      "serviceName": "$$cap_appname",
+      "image": "guacamole/guacamole",
+      "imageReference": "guacamole/guacamole:$$cap_guacamole_version",
+      "hasVariables": true,
+      "currentVersion": "1.3.0",
+      "recommendedVersion": "1.6.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.6.0",
+        "versions": [
+          "1.6.0",
+          "1.6.0-RC3",
+          "1.6.0-RC2",
+          "1.6.0-RC1",
+          "1.5.5"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "hasura-only.yml",
+      "serviceName": "$$cap_appname",
+      "image": "hasura/graphql-engine",
+      "imageReference": "hasura/graphql-engine:$$cap_hasura_version",
+      "hasVariables": true,
+      "currentVersion": "v1.2.2",
+      "recommendedVersion": "latest.cli-migrations-v3",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest.cli-migrations-v3",
+        "versions": [
+          "latest.cli-migrations-v3",
+          "latest.cli-migrations-v2.ubi",
+          "v2.48.7.cli-migrations-v2.ubi",
+          "v2.48.7.cli-migrations-v3",
+          "v2.48.7.cli-migrations-v3.ubi"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "hasura.yml",
+      "serviceName": "$$cap_appname",
+      "image": "hasura/graphql-engine",
+      "imageReference": "hasura/graphql-engine:$$cap_hasura_version",
+      "hasVariables": true,
+      "currentVersion": "v1.2.2",
+      "recommendedVersion": "latest.cli-migrations-v3",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest.cli-migrations-v3",
+        "versions": [
+          "latest.cli-migrations-v3",
+          "latest.cli-migrations-v2.ubi",
+          "v2.48.7.cli-migrations-v2.ubi",
+          "v2.48.7.cli-migrations-v3",
+          "v2.48.7.cli-migrations-v3.ubi"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "healthchecks.yml",
+      "serviceName": "$$cap_appname",
+      "image": "healthchecks/healthchecks",
+      "imageReference": "healthchecks/healthchecks:$$cap_hc_version",
+      "hasVariables": true,
+      "currentVersion": "v1.25.0",
+      "recommendedVersion": "v3.13",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v3.13",
+        "versions": [
+          "v3.13",
+          "v3.12",
+          "v3.11.2",
+          "v3.11.1",
+          "v3.11"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "homepage.yml",
+      "serviceName": "$$cap_appname",
+      "image": "gethomepage/homepage",
+      "imageReference": "ghcr.io/gethomepage/homepage:$$cap_homepage_version",
+      "hasVariables": true,
+      "currentVersion": "v0.8.7",
+      "recommendedVersion": "main",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "main",
+        "versions": [
+          "main",
+          "feature-6015",
+          "feature-gluetun-api",
+          "v1",
+          "v1.7"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "humhub.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mriedmann/humhub",
+      "imageReference": "mriedmann/humhub:$$cap_humhub_version",
+      "hasVariables": true,
+      "currentVersion": "1.6.2",
+      "recommendedVersion": "legacy-phponly",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "legacy-phponly",
+        "versions": [
+          "legacy-phponly",
+          "1.15-phponly",
+          "1.15.6-phponly",
+          "legacy-nginx",
+          "1.15-nginx"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "imagor-local.yml",
+      "serviceName": "$$cap_appname",
+      "image": "shumc/imagor",
+      "imageReference": "shumc/imagor:$$cap_imagor_version",
+      "hasVariables": true,
+      "currentVersion": "0.8.11",
+      "recommendedVersion": "1.6.6",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.6.6",
+        "versions": [
+          "1.6.6",
+          "master",
+          "1.6.5",
+          "1.6.4",
+          "1.6.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "imagor-s3.yml",
+      "serviceName": "$$cap_appname",
+      "image": "shumc/imagor",
+      "imageReference": "shumc/imagor:$$cap_imagor_version",
+      "hasVariables": true,
+      "currentVersion": "0.8.11",
+      "recommendedVersion": "1.6.6",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.6.6",
+        "versions": [
+          "1.6.6",
+          "master",
+          "1.6.5",
+          "1.6.4",
+          "1.6.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "imgproxy.yml",
+      "serviceName": "$$cap_appname",
+      "image": "darthsim/imgproxy",
+      "imageReference": "darthsim/imgproxy:v$$cap_imgproxy_version",
+      "hasVariables": true,
+      "currentVersion": "v3.6.0",
+      "recommendedVersion": "latest-amd64",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest-amd64",
+        "versions": [
+          "latest-amd64",
+          "latest-arm64",
+          "v3.30.1",
+          "v3",
+          "v3.30"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "influxdb2.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/influxdb",
+      "imageReference": "influxdb:$$cap_influx_version",
+      "hasVariables": true,
+      "currentVersion": "2.0",
+      "recommendedVersion": "enterprise",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "enterprise",
+        "versions": [
+          "enterprise",
+          "core",
+          "3.7.0-enterprise",
+          "3.7.0-core",
+          "3.7-enterprise"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "jellyfin.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/jellyfin",
+      "imageReference": "ghcr.io/linuxserver/jellyfin:$$cap_jf_version",
+      "hasVariables": true,
+      "currentVersion": "10.10.1",
+      "recommendedVersion": "nightly-version-2025120105ubu2404",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "nightly-version-2025120105ubu2404",
+        "versions": [
+          "nightly-version-2025120105ubu2404",
+          "nightly-2025120105ubu2404-ls43",
+          "arm64v8-nightly",
+          "arm64v8-nightly-2025120105ubu2404-ls43",
+          "arm64v8-nightly-version-2025120105ubu2404"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "joplin.yml",
+      "serviceName": "$$cap_appname",
+      "image": "joplin/server",
+      "imageReference": "joplin/server:$$cap_joplin_tag",
+      "hasVariables": true,
+      "currentVersion": "1.7.2",
+      "recommendedVersion": "3.4.3",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3.4.3",
+        "versions": [
+          "3.4.3",
+          "arm64-3.4.3",
+          "arm64-3.4",
+          "arm64-3",
+          "arm64-latest"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "jsreport.yml",
+      "serviceName": "$$cap_appname",
+      "image": "jsreport/jsreport",
+      "imageReference": "jsreport/jsreport:$$cap_jsreport_version",
+      "hasVariables": true,
+      "currentVersion": "2.4.0-full",
+      "recommendedVersion": "latest-full",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest-full",
+        "versions": [
+          "latest-full",
+          "4.11.0-full",
+          "latest-windowsservercore",
+          "4.11.0-windowsservercore",
+          "4.11.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "kanboard-sqlite.yml",
+      "serviceName": "$$cap_appname",
+      "image": "kanboard/kanboard",
+      "imageReference": "kanboard/kanboard:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v1.2.15",
+      "recommendedVersion": "v1.2.48",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v1.2.48",
+        "versions": [
+          "v1.2.48",
+          "v1.2.47",
+          "v1.2.46",
+          "v1.2.45",
+          "v1.2.44"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "keila.yml",
+      "serviceName": "$$cap_appname",
+      "image": "pentacent/keila",
+      "imageReference": "pentacent/keila:$$cap_KEILA_VERSION",
+      "hasVariables": true,
+      "currentVersion": "0.12.2",
+      "recommendedVersion": "0.17",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.17",
+        "versions": [
+          "0.17",
+          "0",
+          "0.17.1",
+          "0.17.0",
+          "0.16"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "kutt.yml",
+      "serviceName": "$$cap_appname",
+      "image": "kutt/kutt",
+      "imageReference": "kutt/kutt:$$cap_KUTT_VERSION",
+      "hasVariables": true,
+      "currentVersion": "v2.7.3",
+      "recommendedVersion": "main",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "main",
+        "versions": [
+          "main",
+          "v3.2.3",
+          "v3.2.2",
+          "v3.2.1",
+          "development"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "lago.yml",
+      "serviceName": "$$cap_appname",
+      "image": "getlago/front",
+      "imageReference": "getlago/front:$$cap_LAGO_VERSION",
+      "hasVariables": true,
+      "currentVersion": "v0.11.0-alpha",
+      "recommendedVersion": "v1.36.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v1.36.0",
+        "versions": [
+          "v1.36.0",
+          "v1.35.0",
+          "v1.34.2",
+          "v1.34.1",
+          "v1.34.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "languagetool.yml",
+      "serviceName": "$$cap_appname",
+      "image": "erikvl87/languagetool",
+      "imageReference": "erikvl87/languagetool:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "6.1",
+      "recommendedVersion": "6.7",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "6.7",
+        "versions": [
+          "6.7",
+          "6.6-dockerupdate-2",
+          "6.6-dockerupdate-1",
+          "6.6",
+          "6.5-dockerupdate-1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "leantime.yml",
+      "serviceName": "$$cap_appname",
+      "image": "leantime/leantime",
+      "imageReference": "leantime/leantime:$$cap_leantime_ver",
+      "hasVariables": true,
+      "currentVersion": "2.3.6",
+      "recommendedVersion": "3.5.12",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3.5.12",
+        "versions": [
+          "3.5.12",
+          "3.4.12",
+          "3.5.11",
+          "3.5.10",
+          "3.5.9"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "lemmy.yml",
+      "serviceName": "$$cap_appname",
+      "image": "dessalines/lemmy-ui",
+      "imageReference": "dessalines/lemmy-ui:$$cap_lemmy_ui_version",
+      "hasVariables": true,
+      "currentVersion": "0.19.13",
+      "recommendedVersion": "1.0.0-alpha.12",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.0.0-alpha.12",
+        "versions": [
+          "1.0.0-alpha.12",
+          "1.0.0-alpha.11.1",
+          "1.0.0-alpha.9",
+          "0.19.13",
+          "1.0.0-alpha.7"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "linkding.yml",
+      "serviceName": "$$cap_appname",
+      "image": "sissbruecker/linkding",
+      "imageReference": "sissbruecker/linkding:$$cap_N8N_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.23.0",
+      "recommendedVersion": "1.44.1-plus-alpine",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.44.1-plus-alpine",
+        "versions": [
+          "1.44.1-plus-alpine",
+          "latest-plus-alpine",
+          "1.44.1-plus",
+          "latest-plus",
+          "1.44.1-alpine"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "logzio-collector.yml",
+      "serviceName": "$$cap_appname",
+      "image": "logzio/docker-collector-logs",
+      "imageReference": "logzio/docker-collector-logs:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "0.4.0",
+      "recommendedVersion": "0.5.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.5.1",
+        "versions": [
+          "0.5.1",
+          "0.5.1-arm",
+          "latest-arm",
+          "latest-amd",
+          "0.5.1-amd"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "lychee.yml",
+      "serviceName": "$$cap_appname",
+      "image": "lycheeorg/lychee",
+      "imageReference": "lycheeorg/lychee:$$cap_lychee_version",
+      "hasVariables": true,
+      "currentVersion": "v4.0.7",
+      "recommendedVersion": "alpha-devtools",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "alpha-devtools",
+        "versions": [
+          "alpha-devtools",
+          "testing-19873119083-devtools",
+          "testing-19873119083",
+          "devtools",
+          "testing-19870194496-devtools"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "maildev.yml",
+      "serviceName": "$$cap_appname",
+      "image": "maildev/maildev",
+      "imageReference": "maildev/maildev:$$cap_maildev_version",
+      "hasVariables": true,
+      "currentVersion": "2.1.0",
+      "recommendedVersion": "2.2.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.2.1",
+        "versions": [
+          "2.2.1",
+          "2.1.0",
+          "2.0.5",
+          "2.0.4",
+          "2.0.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "matomo.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/matomo",
+      "imageReference": "matomo:$$cap_matomo_version",
+      "hasVariables": true,
+      "currentVersion": "4.2.1",
+      "recommendedVersion": "apache",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "apache",
+        "versions": [
+          "apache",
+          "5.6.1-apache",
+          "5.6.1",
+          "5.6-apache",
+          "5.6"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "matrix-conduit.yml",
+      "serviceName": "$$cap_appname",
+      "image": "matrixconduit/matrix-conduit",
+      "imageReference": "matrixconduit/matrix-conduit:$$cap_conduit_version",
+      "hasVariables": true,
+      "currentVersion": "v0.6.0",
+      "recommendedVersion": "next",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "next",
+        "versions": [
+          "next",
+          "29aca1748844aa00161bc20553d091bd748bd46b",
+          "29aca1748844aa00161bc20553d091bd748bd46b-arm64v8",
+          "29aca1748844aa00161bc20553d091bd748bd46b-amd64",
+          "2f1f2bea29a4e1ec8f1b17e710c6a42e997ed446"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mattermost-ee.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mattermost/mattermost-enterprise-edition",
+      "imageReference": "mattermost/mattermost-enterprise-edition:$$cap_mattermost_version",
+      "hasVariables": true,
+      "currentVersion": "release-6.7",
+      "recommendedVersion": "sha256-2b954d3e36be8478a8d067fed602041fc503accc663022086d0bd4c22aaa5d9d.att",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-2b954d3e36be8478a8d067fed602041fc503accc663022086d0bd4c22aaa5d9d.att",
+        "versions": [
+          "sha256-2b954d3e36be8478a8d067fed602041fc503accc663022086d0bd4c22aaa5d9d.att",
+          "sha256-2b954d3e36be8478a8d067fed602041fc503accc663022086d0bd4c22aaa5d9d.sig",
+          "release-11",
+          "release-11.2",
+          "11.2.0-rc2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mattermost-team.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mattermost/mattermost-team-edition",
+      "imageReference": "mattermost/mattermost-team-edition:$$cap_mattermost_version",
+      "hasVariables": true,
+      "currentVersion": "release-9.7",
+      "recommendedVersion": "sha256-5c67b523d5915e4918646f683da83aad319d19c5e2f1f70cf3d13f15cf76a4a4.att",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-5c67b523d5915e4918646f683da83aad319d19c5e2f1f70cf3d13f15cf76a4a4.att",
+        "versions": [
+          "sha256-5c67b523d5915e4918646f683da83aad319d19c5e2f1f70cf3d13f15cf76a4a4.att",
+          "sha256-5c67b523d5915e4918646f683da83aad319d19c5e2f1f70cf3d13f15cf76a4a4.sig",
+          "release-11",
+          "release-11.2",
+          "11.2.0-rc2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mautic-only.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mautic/mautic",
+      "imageReference": "mautic/mautic:$$cap_mautic_version",
+      "hasVariables": true,
+      "currentVersion": "v3",
+      "recommendedVersion": "6.0.7-20251202-fpm",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "6.0.7-20251202-fpm",
+        "versions": [
+          "6.0.7-20251202-fpm",
+          "6-fpm",
+          "6.0-fpm",
+          "6.0.7-fpm",
+          "6.0.7-20251202-apache"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mautic.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mautic/mautic",
+      "imageReference": "mautic/mautic:$$cap_mautic_version",
+      "hasVariables": true,
+      "currentVersion": "5.1.0-apache",
+      "recommendedVersion": "6.0.7-20251202-fpm",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "6.0.7-20251202-fpm",
+        "versions": [
+          "6.0.7-20251202-fpm",
+          "6-fpm",
+          "6.0-fpm",
+          "6.0.7-fpm",
+          "6.0.7-20251202-apache"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mayan-edms.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mayanedms/mayanedms",
+      "imageReference": "mayanedms/mayanedms:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "s4.2",
+      "recommendedVersion": "s4.9",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "s4.9",
+        "versions": [
+          "s4.9",
+          "v4.9.6",
+          "s4.8",
+          "v4.8.9",
+          "s4.7"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "meilisearch.yml",
+      "serviceName": "$$cap_appname",
+      "image": "getmeili/meilisearch",
+      "imageReference": "getmeili/meilisearch:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "v1.1",
+      "recommendedVersion": "sha256-9940d83d1c30aeaefb385595907883b7608afddb067b7a0b4ec37cab240e9647.sig",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-9940d83d1c30aeaefb385595907883b7608afddb067b7a0b4ec37cab240e9647.sig",
+        "versions": [
+          "sha256-9940d83d1c30aeaefb385595907883b7608afddb067b7a0b4ec37cab240e9647.sig",
+          "sha256-d81a4a04901dce5eba363e338a8caf3bd0478529de74f24212b53068a72c049e.sig",
+          "sha256-0e3f0f4d442e4fc494dab4c04215d500405a48c85e8720f1d01010b2335446d6.sig",
+          "v1",
+          "v1.28"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "memos.yml",
+      "serviceName": "$$cap_appname",
+      "image": "neosmemo/memos",
+      "imageReference": "neosmemo/memos:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "0.8.3",
+      "recommendedVersion": "stable",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "stable",
+        "versions": [
+          "stable",
+          "0.25",
+          "0.25.3",
+          "0.25.2",
+          "0.25.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mercure.yml",
+      "serviceName": "$$cap_appname",
+      "image": "dunglas/mercure",
+      "imageReference": "dunglas/mercure:$$cap_mercure_version",
+      "hasVariables": true,
+      "currentVersion": "v0.13",
+      "recommendedVersion": "v0.21",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v0.21",
+        "versions": [
+          "v0.21",
+          "v0",
+          "v0.21.2",
+          "latest-arm64v8",
+          "v0.21-arm64v8"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "metabase.yml",
+      "serviceName": "$$cap_appname",
+      "image": "metabase/metabase",
+      "imageReference": "metabase/metabase:$$cap_mb_version",
+      "hasVariables": true,
+      "currentVersion": "v0.38.0-rc1",
+      "recommendedVersion": "v0.57.x",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v0.57.x",
+        "versions": [
+          "v0.57.x",
+          "v0.57.5.x",
+          "v0.57.5.1",
+          "v0.56.17.x",
+          "v0.56.x"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "minecraft-bedrock.yml",
+      "serviceName": "$$cap_appname",
+      "image": "itzg/minecraft-bedrock-server",
+      "imageReference": "itzg/minecraft-bedrock-server:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "2022.1.0",
+      "recommendedVersion": "master",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "master",
+        "versions": [
+          "master",
+          "2025.11.0",
+          "2025.9.0",
+          "2025.7.0",
+          "2025.6.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "miniflux.yml",
+      "serviceName": "$$cap_appname",
+      "image": "miniflux/miniflux",
+      "imageReference": "miniflux/miniflux:$$cap_miniflux_version",
+      "hasVariables": true,
+      "currentVersion": "2.0.22",
+      "recommendedVersion": "nightly-distroless",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "nightly-distroless",
+        "versions": [
+          "nightly-distroless",
+          "latest-distroless",
+          "2.2.14-distroless",
+          "2.2.14",
+          "2.2.13-distroless"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mixpost.yml",
+      "serviceName": "$$cap_appname",
+      "image": "inovector/mixpost",
+      "imageReference": "inovector/mixpost:$$cap_MIXPOST_VERSION",
+      "hasVariables": true,
+      "currentVersion": "v1.1.3",
+      "recommendedVersion": "v2.4.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v2.4.0",
+        "versions": [
+          "v2.4.0",
+          "v2.3.0",
+          "v2.2.0",
+          "v2.1.2",
+          "v2.1.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mongo-express.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/mongo-express",
+      "imageReference": "mongo-express:$$cap_mongoexpress_version",
+      "hasVariables": true,
+      "currentVersion": "0.54",
+      "recommendedVersion": "1.0.2-20-alpine3.19",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.0.2-20-alpine3.19",
+        "versions": [
+          "1.0.2-20-alpine3.19",
+          "1.0-20-alpine3.19",
+          "1-20-alpine3.19",
+          "1.0.2-18-alpine3.19",
+          "1.0-18-alpine3.19"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mongodb.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/mongo",
+      "imageReference": "mongo:$$cap_mongo_version",
+      "hasVariables": true,
+      "currentVersion": "4",
+      "recommendedVersion": "8.0.16-nanoserver-ltsc2022",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "8.0.16-nanoserver-ltsc2022",
+        "versions": [
+          "8.0.16-nanoserver-ltsc2022",
+          "8.0.16-nanoserver",
+          "8.0-nanoserver-ltsc2022",
+          "8.0-nanoserver",
+          "7.0.26-nanoserver-ltsc2022"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "monica.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/monica",
+      "imageReference": "monica:$$cap_monica_version",
+      "hasVariables": true,
+      "currentVersion": "3.7",
+      "recommendedVersion": "5.0.0-beta.5-fpm",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "5.0.0-beta.5-fpm",
+        "versions": [
+          "5.0.0-beta.5-fpm",
+          "5.0.0-beta.5-apache",
+          "5.0.0-beta-fpm",
+          "5.0.0-beta-apache",
+          "5.0-fpm"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "moodle.yml",
+      "serviceName": "$$cap_appname",
+      "image": "bitnamilegacy/moodle",
+      "imageReference": "bitnamilegacy/moodle:$$cap_md_version",
+      "hasVariables": true,
+      "currentVersion": "latest",
+      "recommendedVersion": "sha256-f3cdd791c27bc9a7749edea48cbc8a30ba9b63c0936841c6446e609c07507c2b",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-f3cdd791c27bc9a7749edea48cbc8a30ba9b63c0936841c6446e609c07507c2b",
+        "versions": [
+          "sha256-f3cdd791c27bc9a7749edea48cbc8a30ba9b63c0936841c6446e609c07507c2b",
+          "sha256-df3492f185922381361e8194bffb6d2425accd575992427d571ef12b5c30514c",
+          "sha256-dbf39ebb8a78ee5b8aacf3c3c286e64237a0ef5c7eeb085c4c3af04ce82760ee",
+          "sha256-c805dbb53094ba81afa71a1f666c8eaefdca9ba6dcc025380e98ba616878b7e2",
+          "sha256-bea88704ada8d67e3dd8be44c2c85402b53f3f38d5d0bee945225c252dd1787c"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "mumble.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mumblevoip/mumble-server",
+      "imageReference": "mumblevoip/mumble-server:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v1.4.230",
+      "recommendedVersion": "v1.5.857-0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v1.5.857-0",
+        "versions": [
+          "v1.5.857-0",
+          "v1.5.857",
+          "v1.5.735-3",
+          "v1.5.735",
+          "v1.5.634-2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "n8n-io-sqlite.yml",
+      "serviceName": "$$cap_appname",
+      "image": "n8nio/n8n",
+      "imageReference": "n8nio/n8n:$$cap_N8N_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.77.0",
+      "recommendedVersion": "2.0.0-rc.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.0.0-rc.0",
+        "versions": [
+          "2.0.0-rc.0",
+          "2.0.0-rc.0-arm64",
+          "2.0.0-rc.0-amd64",
+          "nightly-arm64",
+          "nightly-amd64"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "n8n-io.yml",
+      "serviceName": "$$cap_appname",
+      "image": "n8nio/n8n",
+      "imageReference": "n8nio/n8n:$$cap_N8N_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.106.3",
+      "recommendedVersion": "2.0.0-rc.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.0.0-rc.0",
+        "versions": [
+          "2.0.0-rc.0",
+          "2.0.0-rc.0-arm64",
+          "2.0.0-rc.0-amd64",
+          "nightly-arm64",
+          "nightly-amd64"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "netbox.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/netbox",
+      "imageReference": "lscr.io/linuxserver/netbox:$$cap_netbox_version",
+      "hasVariables": true,
+      "currentVersion": "3.1.6",
+      "recommendedVersion": "4.4.7",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "4.4.7",
+        "versions": [
+          "4.4.7",
+          "version-v4.4.7",
+          "v4.4.7-ls316",
+          "arm64v8-4.4.7",
+          "amd64-4.4.7"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "nextcloud.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/nextcloud",
+      "imageReference": "nextcloud:$$cap_nextcloud_version",
+      "hasVariables": true,
+      "currentVersion": "29.0.14",
+      "recommendedVersion": "fpm-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "fpm-alpine",
+        "versions": [
+          "fpm-alpine",
+          "32.0.2-fpm-alpine",
+          "32.0-fpm-alpine",
+          "32-fpm-alpine",
+          "stable-fpm-alpine"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "nexus3.yml",
+      "serviceName": "$$cap_appname",
+      "image": "sonatype/nexus3",
+      "imageReference": "sonatype/nexus3:$$cap__version",
+      "hasVariables": true,
+      "currentVersion": "3.15.2",
+      "recommendedVersion": "3.87.0-alpine",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3.87.0-alpine",
+        "versions": [
+          "3.87.0-alpine",
+          "3.87.0-ubi",
+          "3.87.0",
+          "3.86.2-alpine",
+          "3.86.2-java17-alpine"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "nocodb.yml",
+      "serviceName": "$$cap_appname",
+      "image": "nocodb/nocodb",
+      "imageReference": "nocodb/nocodb:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "0.83.8",
+      "recommendedVersion": "0.265.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.265.1",
+        "versions": [
+          "0.265.1",
+          "0.265.0",
+          "0.264.9",
+          "0.264.8",
+          "0.264.7"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "node-exporter.yml",
+      "serviceName": "$$cap_appname",
+      "image": "prom/node-exporter",
+      "imageReference": "prom/node-exporter:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v1.5.0",
+      "recommendedVersion": "master",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "master",
+        "versions": [
+          "master",
+          "v1.10.2",
+          "v1.10.1",
+          "v1.10.0",
+          "v1.9.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "node-red.yml",
+      "serviceName": "$$cap_appname",
+      "image": "nodered/node-red",
+      "imageReference": "nodered/node-red:$$cap_node-red_version",
+      "hasVariables": true,
+      "currentVersion": "3.1.8-18-minimal",
+      "recommendedVersion": "latest-22",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest-22",
+        "versions": [
+          "latest-22",
+          "4.1.1-22",
+          "latest-22-minimal",
+          "4.1.1-22-minimal",
+          "latest-20"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "odoo.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/odoo",
+      "imageReference": "odoo:$$cap_odoo_version",
+      "hasVariables": true,
+      "currentVersion": "13.0",
+      "recommendedVersion": "19.0-20251121",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "19.0-20251121",
+        "versions": [
+          "19.0-20251121",
+          "19.0",
+          "19",
+          "18.0-20251121",
+          "18.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "ohmyform.yml",
+      "serviceName": "$$cap_appname",
+      "image": "ohmyform/ohmyform",
+      "imageReference": "ohmyform/ohmyform:0.9.9",
+      "hasVariables": false,
+      "currentVersion": "0.9.9",
+      "recommendedVersion": "1.0.3",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.0.3",
+        "versions": [
+          "1.0.3",
+          "1.0",
+          "1",
+          "1.0.2",
+          "1.0.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "onlyoffice-documentserver.yml",
+      "serviceName": "$$cap_appname",
+      "image": "onlyoffice/documentserver",
+      "imageReference": "onlyoffice/documentserver:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "7.3.3.50",
+      "recommendedVersion": "9.2",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "9.2",
+        "versions": [
+          "9.2",
+          "9.2.0",
+          "9.2.0.1",
+          "9.1",
+          "9.1.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "openvscode-server.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/openvscode-server",
+      "imageReference": "lscr.io/linuxserver/openvscode-server:$$cap_openvscode_server_version",
+      "hasVariables": true,
+      "currentVersion": "1.74.3",
+      "recommendedVersion": "1.106.3",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.106.3",
+        "versions": [
+          "1.106.3",
+          "version-1.106.3",
+          "1.106.3-ls195",
+          "arm64v8-1.106.3",
+          "amd64-1.106.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "orangehrm.yml",
+      "serviceName": "$$cap_appname",
+      "image": "orangehrm/orangehrm",
+      "imageReference": "orangehrm/orangehrm:$$cap_orangehrm_version",
+      "hasVariables": true,
+      "currentVersion": "5.4",
+      "recommendedVersion": "5.8",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "5.8",
+        "versions": [
+          "5.8",
+          "5.7",
+          "5.6.1",
+          "5.6",
+          "5.5"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "organizr.yml",
+      "serviceName": "$$cap_appname",
+      "image": "organizr/organizr",
+      "imageReference": "organizr/organizr:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "amd64",
+      "recommendedVersion": "linux-arm-v7",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "linux-arm-v7",
+        "versions": [
+          "linux-arm-v7",
+          "linux-amd64",
+          "linux-arm64",
+          "arm64",
+          "arm"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "overseerr.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/overseerr",
+      "imageReference": "lscr.io/linuxserver/overseerr:$$cap_overseerr_version",
+      "hasVariables": true,
+      "currentVersion": "1.33.2",
+      "recommendedVersion": "1.34.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.34.0",
+        "versions": [
+          "1.34.0",
+          "version-v1.34.0",
+          "v1.34.0-ls153",
+          "develop-version-b1c6e2fdbde49859a661767e9b414555aa7abc31",
+          "develop-b1c6e2fdbde49859a661767e9b414555aa7abc31-ls385"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "owncast.yml",
+      "serviceName": "$$cap_appname",
+      "image": "gabekangas/owncast",
+      "imageReference": "gabekangas/owncast:$$cap_OWNCAST_VERSION",
+      "hasVariables": true,
+      "currentVersion": "0.0.12",
+      "recommendedVersion": "0.2.3",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.2.3",
+        "versions": [
+          "0.2.3",
+          "0.2.2",
+          "0.2.1",
+          "0.2.0",
+          "0.1.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "paperless-ng.yml",
+      "serviceName": "$$cap_appname",
+      "image": "jonaswinkler/paperless-ng",
+      "imageReference": "jonaswinkler/paperless-ng:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "1.4.1",
+      "recommendedVersion": "1.5.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.5.0",
+        "versions": [
+          "1.5.0",
+          "feature-dependency-maintenance",
+          "1.4.5",
+          "1.4.4",
+          "1.4.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "paperless-ngx.yml",
+      "serviceName": "$$cap_appname",
+      "image": "paperlessngx/paperless-ngx",
+      "imageReference": "paperlessngx/paperless-ngx:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "2.15.3",
+      "recommendedVersion": "2.20",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.20",
+        "versions": [
+          "2.20",
+          "2.20.1",
+          "2.20.0",
+          "2.19",
+          "2.19.6"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "papermerge.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/papermerge",
+      "imageReference": "linuxserver/papermerge:$$cap_papermerge_version",
+      "hasVariables": true,
+      "currentVersion": "v2.0.1-ls10",
+      "recommendedVersion": "2.1.5",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.1.5",
+        "versions": [
+          "2.1.5",
+          "version-v2.1.5",
+          "v2.1.5-ls61",
+          "arm64v8-2.1.5",
+          "arm32v7-2.1.5"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "parse.yml",
+      "serviceName": "$$cap_appname-parse",
+      "image": "parseplatform/parse-server",
+      "imageReference": "parseplatform/parse-server:$$cap_parse_version",
+      "hasVariables": true,
+      "currentVersion": "3.1.3",
+      "recommendedVersion": "8.5.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "8.5.0",
+        "versions": [
+          "8.5.0",
+          "8.5.0-alpha.18",
+          "8.5.0-alpha.17",
+          "8.5.0-alpha.16",
+          "8.5.0-alpha.15"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "peertube.yml",
+      "serviceName": "$$cap_appname",
+      "image": "chocobozzz/peertube",
+      "imageReference": "chocobozzz/peertube:$$cap_peertube_version",
+      "hasVariables": true,
+      "currentVersion": "v5.1.0-bullseye",
+      "recommendedVersion": "v7.3.0-bookworm",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v7.3.0-bookworm",
+        "versions": [
+          "v7.3.0-bookworm",
+          "production-bookworm",
+          "develop",
+          "develop-trixie",
+          "v8.0.0-rc.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "penpot.yml",
+      "serviceName": "$$cap_appname",
+      "image": "penpotapp/frontend",
+      "imageReference": "penpotapp/frontend:$$cap_penpot_version",
+      "hasVariables": true,
+      "currentVersion": "1.18.4",
+      "recommendedVersion": "main",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "main",
+        "versions": [
+          "main",
+          "2.11.1",
+          "2.11.0",
+          "2.10.1",
+          "2.10.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "percona.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/percona",
+      "imageReference": "percona:$$cap_percona_version",
+      "hasVariables": true,
+      "currentVersion": "ps-8.0",
+      "recommendedVersion": "psmdb-8.0.12",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "psmdb-8.0.12",
+        "versions": [
+          "psmdb-8.0.12",
+          "psmdb-8.0",
+          "psmdb-7.0.24",
+          "psmdb-7.0",
+          "psmdb-6.0.25"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "pgadmin4.yml",
+      "serviceName": "$$cap_appname",
+      "image": "dpage/pgadmin4",
+      "imageReference": "dpage/pgadmin4:$$cap_pgadmin4_version",
+      "hasVariables": true,
+      "currentVersion": "4.27",
+      "recommendedVersion": "9.10.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "9.10.0",
+        "versions": [
+          "9.10.0",
+          "9.10",
+          "9",
+          "2025-11-10-1",
+          "9.9.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "pgweb.yml",
+      "serviceName": "$$cap_appname",
+      "image": "sosedoff/pgweb",
+      "imageReference": "sosedoff/pgweb:$$cap_pgweb_version",
+      "hasVariables": true,
+      "currentVersion": "0.11.2",
+      "recommendedVersion": "0.17.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.17.0",
+        "versions": [
+          "0.17.0",
+          "0.16.2",
+          "0.16.1",
+          "0.16.0-20240907",
+          "0.15.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "photoprism.yml",
+      "serviceName": "$$cap_appname",
+      "image": "photoprism/photoprism",
+      "imageReference": "photoprism/photoprism:$$app_version",
+      "hasVariables": true,
+      "currentVersion": "220901-bullseye",
+      "recommendedVersion": "preview-arm64",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "preview-arm64",
+        "versions": [
+          "preview-arm64",
+          "preview",
+          "arm64",
+          "ubuntu",
+          "251130"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "photoview.yml",
+      "serviceName": "$$cap_appname",
+      "image": "viktorstrate/photoview",
+      "imageReference": "viktorstrate/photoview:$$cap_photoview_version",
+      "hasVariables": true,
+      "currentVersion": "2.3.9",
+      "recommendedVersion": "sha-84c642c",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha-84c642c",
+        "versions": [
+          "sha-84c642c",
+          "master",
+          "sha-c151bde",
+          "sha-7e3f76a",
+          "sha-1a861d9"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "phpldapadmin.yml",
+      "serviceName": "$$cap_appname",
+      "image": "osixia/openldap",
+      "imageReference": "osixia/openldap:$$cap_openldap_version",
+      "hasVariables": true,
+      "currentVersion": "1.4.0",
+      "recommendedVersion": "develop-dev",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "develop-dev",
+        "versions": [
+          "develop-dev",
+          "develop-dev-amd64",
+          "develop-dev-arm32v7",
+          "develop-dev-arm64v8",
+          "stable"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "phpmyadmin.yml",
+      "serviceName": "$$cap_appname",
+      "image": "phpmyadmin/phpmyadmin",
+      "imageReference": "phpmyadmin/phpmyadmin:$$cap_pma_version",
+      "hasVariables": true,
+      "currentVersion": "5.0.2",
+      "recommendedVersion": "fpm-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "fpm-alpine",
+        "versions": [
+          "fpm-alpine",
+          "5.2.3-fpm-alpine",
+          "5.2-fpm-alpine",
+          "5-fpm-alpine",
+          "fpm"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "picoshare.yml",
+      "serviceName": "$$cap_appname",
+      "image": "mtlynch/picoshare",
+      "imageReference": "mtlynch/picoshare:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "1.4.4",
+      "recommendedVersion": "1.5.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.5.1",
+        "versions": [
+          "1.5.1",
+          "1.5.0",
+          "1.4.5",
+          "1.4.4",
+          "1.4.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "pigallery2.yml",
+      "serviceName": "$$cap_appname",
+      "image": "bpatrik/pigallery2",
+      "imageReference": "bpatrik/pigallery2:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "2.0.0",
+      "recommendedVersion": "edge-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "edge-alpine",
+        "versions": [
+          "edge-alpine",
+          "edge-debian-trixie",
+          "3.0.1",
+          "latest-debian-trixie",
+          "3.0.1-debian-trixie"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "pihole.yml",
+      "serviceName": "$$cap_appname",
+      "image": "pihole/pihole",
+      "imageReference": "pihole/pihole:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "2024.07.0",
+      "recommendedVersion": "experimental",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "experimental",
+        "versions": [
+          "experimental",
+          "2025.11.1",
+          "2025.11.0",
+          "2025.10.3",
+          "2025.10.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "plex-arm.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/plex",
+      "imageReference": "linuxserver/plex:$$cap_plex_version",
+      "hasVariables": true,
+      "currentVersion": "1.25.8",
+      "recommendedVersion": "1.42.2",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.42.2",
+        "versions": [
+          "1.42.2",
+          "version-1.42.2.10156-f737b826c",
+          "1.42.2.10156-f737b826c-ls286",
+          "arm64v8-1.42.2",
+          "amd64-1.42.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "plex.yml",
+      "serviceName": "$$cap_appname",
+      "image": "plexinc/pms-docker",
+      "imageReference": "plexinc/pms-docker:$$cap_plex_version",
+      "hasVariables": true,
+      "currentVersion": "1.19.2.2737-b69929dab",
+      "recommendedVersion": "1.42.2.10156-f737b826c",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.42.2.10156-f737b826c",
+        "versions": [
+          "1.42.2.10156-f737b826c",
+          "plex-user-test",
+          "1.42.1.10060-4e8b05daf",
+          "1.42.1.10054-f333bdaa8",
+          "1.41.6.9685-d301f511a"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "portainer.yml",
+      "serviceName": "$$cap_appname",
+      "image": "portainer/portainer-ce",
+      "imageReference": "portainer/portainer-$$cap_portainer_edition:$$cap_portainer_version",
+      "hasVariables": true,
+      "currentVersion": "2.16.2",
+      "recommendedVersion": "alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "alpine",
+        "versions": [
+          "alpine",
+          "lts",
+          "2.33.5-alpine",
+          "2.33.5",
+          "2.33.5-linux-ppc64le-alpine"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "postgres.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/postgres",
+      "imageReference": "postgres:$$cap_postgres_version",
+      "hasVariables": true,
+      "currentVersion": "14.5",
+      "recommendedVersion": "15.15-trixie",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "15.15-trixie",
+        "versions": [
+          "15.15-trixie",
+          "15.15",
+          "15-trixie",
+          "15",
+          "14.20-trixie"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "prerender.yml",
+      "serviceName": "$$cap_appname",
+      "image": "tvanro/prerender-alpine",
+      "imageReference": "tvanro/prerender-alpine:6.4.0",
+      "hasVariables": false,
+      "currentVersion": "6.4.0",
+      "recommendedVersion": "7.2.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "7.2.0",
+        "versions": [
+          "7.2.0",
+          "7.1.0",
+          "7.0.1",
+          "7.0.0",
+          "6.6.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "prisma.yml",
+      "serviceName": "$$cap_appname",
+      "image": "prismagraphql/prisma",
+      "imageReference": "prismagraphql/prisma:$$cap_prisma_version",
+      "hasVariables": true,
+      "currentVersion": "1.29",
+      "recommendedVersion": "1.34.9-gatsby",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.34.9-gatsby",
+        "versions": [
+          "1.34.9-gatsby",
+          "1.34-heroku",
+          "1.34.10-heroku",
+          "1.34",
+          "1.34.10"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "privatebin.yml",
+      "serviceName": "$$cap_appname",
+      "image": "privatebin/nginx-fpm-alpine",
+      "imageReference": "privatebin/nginx-fpm-alpine:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "1.5.1",
+      "recommendedVersion": "stable",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "stable",
+        "versions": [
+          "stable",
+          "2.0.3",
+          "2.0.3-alpine3.22",
+          "2.0.2",
+          "2.0.2-alpine3.22"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "projectsend.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/projectsend",
+      "imageReference": "linuxserver/projectsend:$$cap_projectsend_version",
+      "hasVariables": true,
+      "currentVersion": "version-r1295",
+      "recommendedVersion": "version-r1945",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "version-r1945",
+        "versions": [
+          "version-r1945",
+          "r1945-ls250",
+          "arm64v8-version-r1945",
+          "arm64v8-latest",
+          "arm64v8-r1945-ls250"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "prometheus.yml",
+      "serviceName": "$$cap_appname",
+      "image": "prom/prometheus",
+      "imageReference": "$$cap_image_repo:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v3.5.0",
+      "recommendedVersion": "v3.8.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v3.8.0",
+        "versions": [
+          "v3.8.0",
+          "v3.8.0-rc.1",
+          "v3.8.0-rc.0",
+          "main",
+          "v3.7.3"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "proxypool.yml",
+      "serviceName": "$$cap_appname",
+      "image": "jhao104/proxy_pool",
+      "imageReference": "jhao104/proxy_pool:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "2.2.0",
+      "recommendedVersion": "2.4.2",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.4.2",
+        "versions": [
+          "2.4.2",
+          "2.4.1",
+          "2.4.0",
+          "2.3.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "pydio.yml",
+      "serviceName": "$$cap_appname",
+      "image": "pydio/cells",
+      "imageReference": "pydio/cells:$$cap_pydio_version",
+      "hasVariables": true,
+      "currentVersion": "2.2.8",
+      "recommendedVersion": "unstable-v5-dev",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "unstable-v5-dev",
+        "versions": [
+          "unstable-v5-dev",
+          "4.4",
+          "4",
+          "4.4.16",
+          "unstable"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "pyload.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/pyload-ng",
+      "imageReference": "lscr.io/linuxserver/pyload-ng:$$cap_pyload_version",
+      "hasVariables": true,
+      "currentVersion": "0.5.0",
+      "recommendedVersion": "develop-version-cc3e5890",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "develop-version-cc3e5890",
+        "versions": [
+          "develop-version-cc3e5890",
+          "develop-cc3e5890-ls444",
+          "develop",
+          "arm64v8-develop-cc3e5890-ls444",
+          "arm64v8-develop"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "rabbitmq.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/rabbitmq",
+      "imageReference": "rabbitmq:$$cap_rabbitmq_version",
+      "hasVariables": true,
+      "currentVersion": "3.7",
+      "recommendedVersion": "4.1.6-management-alpine",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "4.1.6-management-alpine",
+        "versions": [
+          "4.1.6-management-alpine",
+          "4.1.6-management",
+          "4.1-management-alpine",
+          "4.1-management",
+          "4.0.9-management-alpine"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "radicale.yml",
+      "serviceName": "$$cap_appname",
+      "image": "tomsquest/docker-radicale",
+      "imageReference": "tomsquest/docker-radicale:$$cap_image_tag",
+      "hasVariables": true,
+      "currentVersion": "2.1.12.1",
+      "recommendedVersion": "3.5.8.2",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3.5.8.2",
+        "versions": [
+          "3.5.8.2",
+          "3.5.8.1",
+          "3.5.8.0",
+          "3.5.7.0",
+          "3.5.6.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "rainloop.yml",
+      "serviceName": "$$cap_appname",
+      "image": "hardware/rainloop",
+      "imageReference": "hardware/rainloop:$$cap_rainloop_version",
+      "hasVariables": true,
+      "currentVersion": "1.12.0",
+      "recommendedVersion": "1.13.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.13.0",
+        "versions": [
+          "1.13.0",
+          "1.12.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "raneto.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/raneto",
+      "imageReference": "linuxserver/raneto:$$cap_raneto_version",
+      "hasVariables": true,
+      "currentVersion": "0.17.0-ls49",
+      "recommendedVersion": "0.18.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.18.0",
+        "versions": [
+          "0.18.0",
+          "version-0.18.0",
+          "0.18.0-ls191",
+          "arm64v8-0.18.0",
+          "amd64-0.18.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "readarr.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/readarr",
+      "imageReference": "lscr.io/linuxserver/readarr:$$cap_readarr_version",
+      "hasVariables": true,
+      "currentVersion": "0.3.12-nightly",
+      "recommendedVersion": "0.4.19-nightly",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "0.4.19-nightly",
+        "versions": [
+          "0.4.19-nightly",
+          "nightly-version-0.4.19.2811",
+          "nightly-0.4.19.2811-ls400",
+          "amd64-nightly",
+          "arm64v8-nightly"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "redis.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/redis",
+      "imageReference": "redis:$$cap_redis_version",
+      "hasVariables": true,
+      "currentVersion": "7.2.4",
+      "recommendedVersion": "alpine3.22",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "alpine3.22",
+        "versions": [
+          "alpine3.22",
+          "alpine",
+          "8.4.0-alpine3.22",
+          "8.4.0-alpine",
+          "8.4-alpine3.22"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "redmine-mysql.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/redmine",
+      "imageReference": "redmine:$$cap_redmine_version",
+      "hasVariables": true,
+      "currentVersion": "5.0.4",
+      "recommendedVersion": "6.0.7-trixie",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "6.0.7-trixie",
+        "versions": [
+          "6.0.7-trixie",
+          "6.0.7",
+          "6.0-trixie",
+          "6.0",
+          "5.1.10-trixie"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "redmine.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/redmine",
+      "imageReference": "redmine:$$cap_redmine_version",
+      "hasVariables": true,
+      "currentVersion": "5.0.4",
+      "recommendedVersion": "6.0.7-trixie",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "6.0.7-trixie",
+        "versions": [
+          "6.0.7-trixie",
+          "6.0.7",
+          "6.0-trixie",
+          "6.0",
+          "5.1.10-trixie"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "remark42.yml",
+      "serviceName": "$$cap_appname",
+      "image": "umputun/remark42",
+      "imageReference": "umputun/remark42:$$cap_tag_version",
+      "hasVariables": true,
+      "currentVersion": "v1.9.0",
+      "recommendedVersion": "master",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "master",
+        "versions": [
+          "master",
+          "backend",
+          "v1.14.0",
+          "v1.13.1",
+          "v1.13.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "request-baskets.yml",
+      "serviceName": "$$cap_appname",
+      "image": "darklynx/request-baskets",
+      "imageReference": "darklynx/request-baskets:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v1.1.0",
+      "recommendedVersion": "v1.2.3",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v1.2.3",
+        "versions": [
+          "v1.2.3",
+          "v1.2.2",
+          "v1.2.1",
+          "v1.2.0",
+          "v1.1.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "resilio-sync.yml",
+      "serviceName": "$$cap_appname",
+      "image": "resilio/sync",
+      "imageReference": "resilio/sync:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "2.6.4",
+      "recommendedVersion": "2.8.1",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.8.1",
+        "versions": [
+          "2.8.1",
+          "2.7.3",
+          "2.7.2",
+          "2.7.1",
+          "2.7.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "rethinkdb.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/rethinkdb",
+      "imageReference": "rethinkdb:2.3.6",
+      "hasVariables": false,
+      "currentVersion": "2.3.6",
+      "recommendedVersion": "bookworm-slim",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "bookworm-slim",
+        "versions": [
+          "bookworm-slim",
+          "2.4.4-bookworm-slim",
+          "2.4.3",
+          "2.4-bookworm-slim",
+          "2.4"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "rocketchat.yml",
+      "serviceName": "$$cap_appname",
+      "image": "rocketchat/rocket.chat",
+      "imageReference": "registry.rocket.chat/rocketchat/rocket.chat:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "5.2.0",
+      "recommendedVersion": "sha-cfc3967",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha-cfc3967",
+        "versions": [
+          "sha-cfc3967",
+          "release-candidate",
+          "7.13.0-rc.1",
+          "sha-355d26d",
+          "develop"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "rss-bridge.yml",
+      "serviceName": "$$cap_appname",
+      "image": "rssbridge/rss-bridge",
+      "imageReference": "rssbridge/rss-bridge:$$cap_app_version",
+      "hasVariables": true,
+      "currentVersion": "2021-04-25",
+      "recommendedVersion": "sha-6a0cc5b",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha-6a0cc5b",
+        "versions": [
+          "sha-6a0cc5b",
+          "sha-e8c7904",
+          "sha-0e16ea4",
+          "sha-b785a02",
+          "sha-08afada"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "rstudio.yml",
+      "serviceName": "$$cap_appname",
+      "image": "rocker/rstudio",
+      "imageReference": "rocker/rstudio:$$cap_rstudio_version",
+      "hasVariables": true,
+      "currentVersion": "4.0.4",
+      "recommendedVersion": "devel",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "devel",
+        "versions": [
+          "devel",
+          "4.5.1",
+          "4",
+          "4.5",
+          "4.5.2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "seafile-nomemcached.yml",
+      "serviceName": "$$cap_appname",
+      "image": "seafileltd/seafile-mc",
+      "imageReference": "seafileltd/seafile-mc:$$cap_seafile_version",
+      "hasVariables": true,
+      "currentVersion": "8.0.7",
+      "recommendedVersion": "13.0.12",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "13.0.12",
+        "versions": [
+          "13.0.12",
+          "13.0-latest",
+          "13.0.12-testing",
+          "13.0.12-arm-testing",
+          "13.0.11"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "seafile.yml",
+      "serviceName": "$$cap_appname",
+      "image": "seafileltd/seafile-mc",
+      "imageReference": "seafileltd/seafile-mc:$$cap_seafile_version",
+      "hasVariables": true,
+      "currentVersion": "8.0.7",
+      "recommendedVersion": "13.0.12",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "13.0.12",
+        "versions": [
+          "13.0.12",
+          "13.0-latest",
+          "13.0.12-testing",
+          "13.0.12-arm-testing",
+          "13.0.11"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "shopware.yml",
+      "serviceName": "$$cap_appname-shopware",
+      "image": "shyim/shopware",
+      "imageReference": "shyim/shopware:$$cap_sw_version",
+      "hasVariables": true,
+      "currentVersion": "6.2.0",
+      "recommendedVersion": "cli-6.6.10.9-php8.1.33",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "cli-6.6.10.9-php8.1.33",
+        "versions": [
+          "cli-6.6.10.9-php8.1.33",
+          "cli-6.6.10.9-php8.1",
+          "cli-6.6.10.9",
+          "cli-6.6.10-php8.1.33",
+          "cli-6.6.10-php8.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "silex-platform.yml",
+      "serviceName": "$$cap_appname",
+      "image": "silexlabs/silex-platform",
+      "imageReference": "silexlabs/silex-platform:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v1.0.162",
+      "recommendedVersion": "prerelease",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "prerelease",
+        "versions": [
+          "prerelease",
+          "1.3.1-5",
+          "1.3.1-4",
+          "1.3.1-3",
+          "1.3.1-2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "sinusbot.yml",
+      "serviceName": "$$cap_appname",
+      "image": "sinusbot/docker",
+      "imageReference": "sinusbot/docker:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "1.0.0-beta.10-202ee4d",
+      "recommendedVersion": "discord",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "discord",
+        "versions": [
+          "discord",
+          "1.0.2-discord",
+          "1.0.2",
+          "1.0.0-beta.16-ba60e37",
+          "1.0.0-beta.16-ba60e37-discord"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "smokeping.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/smokeping",
+      "imageReference": "linuxserver/smokeping:$$cap_smokeping_version",
+      "hasVariables": true,
+      "currentVersion": "2.7.3",
+      "recommendedVersion": "2.9.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.9.0",
+        "versions": [
+          "2.9.0",
+          "version-2.9.0-r0",
+          "2.9.0-r0-ls157",
+          "arm64v8-2.9.0",
+          "amd64-2.9.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "sonarqube.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/sonarqube",
+      "imageReference": "sonarqube:$$cap_sonar_version",
+      "hasVariables": true,
+      "currentVersion": "10.2.1-community",
+      "recommendedVersion": "enterprise",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "enterprise",
+        "versions": [
+          "enterprise",
+          "developer",
+          "datacenter-search",
+          "datacenter-app",
+          "community"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "sourcegraph.yml",
+      "serviceName": "$$cap_appname",
+      "image": "sourcegraph/server",
+      "imageReference": "sourcegraph/server:$$cap_container_version",
+      "hasVariables": true,
+      "currentVersion": "3.2.2",
+      "recommendedVersion": "sha256-de90be1b51ab2808690cccdc690b77aee0ebb181fd84a382323ed109b0386e99.att",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-de90be1b51ab2808690cccdc690b77aee0ebb181fd84a382323ed109b0386e99.att",
+        "versions": [
+          "sha256-de90be1b51ab2808690cccdc690b77aee0ebb181fd84a382323ed109b0386e99.att",
+          "sha256-de90be1b51ab2808690cccdc690b77aee0ebb181fd84a382323ed109b0386e99.sig",
+          "6.10.3349",
+          "sha256-b22517545e9b439bc5b9e92225a3f7ace69f68601ed0d55f591a39551e049125.att",
+          "sha256-b22517545e9b439bc5b9e92225a3f7ace69f68601ed0d55f591a39551e049125.sig"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "squidex.yml",
+      "serviceName": "$$cap_appname",
+      "image": "squidex/squidex",
+      "imageReference": "squidex/squidex:$$cap_squidex_version",
+      "hasVariables": true,
+      "currentVersion": "4.6.0",
+      "recommendedVersion": "dev-8478",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "dev-8478",
+        "versions": [
+          "dev-8478",
+          "dev-8477",
+          "dev-8476",
+          "dev-8472",
+          "dev-8471"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "sshd.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/openssh-server",
+      "imageReference": "lscr.io/linuxserver/openssh-server:version-9.7_p1-r4",
+      "hasVariables": false,
+      "currentVersion": "version-9.7_p1-r4",
+      "recommendedVersion": "version-10.0_p1-r10",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "version-10.0_p1-r10",
+        "versions": [
+          "version-10.0_p1-r10",
+          "10.0_p1-r10-ls211",
+          "arm64v8-10.0_p1-r10-ls211",
+          "arm64v8-version-10.0_p1-r10",
+          "arm64v8-latest"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "statping.yml",
+      "serviceName": "$$cap_appname",
+      "image": "statping/statping",
+      "imageReference": "statping/statping:$$cap_statping_version",
+      "hasVariables": true,
+      "currentVersion": "v0.90.74",
+      "recommendedVersion": "base",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "base",
+        "versions": [
+          "base",
+          "v0.90.74",
+          "v0.90.71",
+          "v0.90.70",
+          "v0.90.69"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "stirling-pdf.yml",
+      "serviceName": "$$cap_appname",
+      "image": "frooodle/s-pdf",
+      "imageReference": "frooodle/s-pdf:$$cap_stirling_version",
+      "hasVariables": true,
+      "currentVersion": "0.19.1",
+      "recommendedVersion": "sha256-000423e4692e8cab50e9a9b5c5018d780a4799407ff562d6fc49cb05c6674830.sig",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "sha256-000423e4692e8cab50e9a9b5c5018d780a4799407ff562d6fc49cb05c6674830.sig",
+        "versions": [
+          "sha256-000423e4692e8cab50e9a9b5c5018d780a4799407ff562d6fc49cb05c6674830.sig",
+          "latest-ultra-lite",
+          "2.0.2-ultra-lite",
+          "sha256-acc449370daca4ea780f3ad2a8703d99c8ca550db2da2d6d769aa1f2fff0ffaf.sig",
+          "latest-fat"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "strapi.yml",
+      "serviceName": "$$cap_appname",
+      "image": "naskio/strapi",
+      "imageReference": "naskio/strapi:$$cap_strapi_version",
+      "hasVariables": true,
+      "currentVersion": "4.3.2",
+      "recommendedVersion": "latest-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest-alpine",
+        "versions": [
+          "latest-alpine",
+          "5.30.1-alpine",
+          "5.30.1",
+          "5.30.0-alpine",
+          "5.30.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "supertokens.yml",
+      "serviceName": "$$cap_appname",
+      "image": "supertokens/supertokens-postgresql",
+      "imageReference": "supertokens/supertokens-postgresql:$$cap_supertokens_version",
+      "hasVariables": true,
+      "currentVersion": "7.0",
+      "recommendedVersion": "latest-arm64",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest-arm64",
+        "versions": [
+          "latest-arm64",
+          "latest-amd64",
+          "11.3.0",
+          "11.3.0-arm64",
+          "11.3.0-amd64"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "syncthing.yml",
+      "serviceName": "$$cap_appname",
+      "image": "syncthing/syncthing",
+      "imageReference": "syncthing/syncthing:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "1.5.0",
+      "recommendedVersion": "2.0.12",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.0.12",
+        "versions": [
+          "2.0.12",
+          "2.0",
+          "2",
+          "2.0.12-rc.1",
+          "2.0.11"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "tautulli.yml",
+      "serviceName": "$$cap_appname",
+      "image": "tautulli/tautulli",
+      "imageReference": "tautulli/tautulli:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "v2.7.5",
+      "recommendedVersion": "v2.16.0",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v2.16.0",
+        "versions": [
+          "v2.16.0",
+          "v2.15.3",
+          "v2.15.2",
+          "v2.15.1",
+          "v2.15.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "telegraf.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/telegraf",
+      "imageReference": "telegraf:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "1.17.3-alpine",
+      "recommendedVersion": "1.36.4",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.36.4",
+        "versions": [
+          "1.36.4",
+          "1.36",
+          "1.35.4",
+          "1.35",
+          "1.34.4"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "teslamate.yml",
+      "serviceName": "$$cap_appname",
+      "image": "teslamate/teslamate",
+      "imageReference": "teslamate/teslamate:$$cap_TESLAMATE_VERSION",
+      "hasVariables": true,
+      "currentVersion": "1.28",
+      "recommendedVersion": "2.2.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.2.0",
+        "versions": [
+          "2.2.0",
+          "2.2",
+          "2.1",
+          "2.1.1",
+          "2.1.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "thingsboard-postgres.yml",
+      "serviceName": "$$cap_appname",
+      "image": "thingsboard/tb-postgres",
+      "imageReference": "thingsboard/tb-postgres:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "3.2.2",
+      "recommendedVersion": "4.2.1",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "4.2.1",
+        "versions": [
+          "4.2.1",
+          "4.2.0",
+          "4.1.0",
+          "4.0.2",
+          "4.0.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "thumbor.yml",
+      "serviceName": "$$cap_appname",
+      "image": "minimalcompact/thumbor",
+      "imageReference": "minimalcompact/thumbor:$$cap_thumbor_version",
+      "hasVariables": true,
+      "currentVersion": "6.7.0",
+      "recommendedVersion": "6.7.5",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "6.7.5",
+        "versions": [
+          "6.7.5",
+          "6.7.5-simd-avx2",
+          "6.7.5-simd-sse4",
+          "6.7.0",
+          "6.7.0-simd-avx2"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "transfer-sh.yml",
+      "serviceName": "$$cap_appname",
+      "image": "dutchcoders/transfer.sh",
+      "imageReference": "dutchcoders/transfer.sh:$$cap_transfersh_version",
+      "hasVariables": true,
+      "currentVersion": "v1.4.0",
+      "recommendedVersion": "latest-noroot",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "latest-noroot",
+        "versions": [
+          "latest-noroot",
+          "nightly-noroot",
+          "edge-noroot",
+          "v1.6.1-noroot",
+          "v1.6.1"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "trudesk.yml",
+      "serviceName": "$$cap_appname",
+      "image": "polonel/trudesk",
+      "imageReference": "polonel/trudesk:$$cap_trudesk_version",
+      "hasVariables": true,
+      "currentVersion": "1.2.10",
+      "recommendedVersion": "1.2.11",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "1.2.11",
+        "versions": [
+          "1.2.11",
+          "1.2",
+          "1",
+          "next",
+          "1.2.10"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "ubooquity.yml",
+      "serviceName": "$$cap_appname",
+      "image": "linuxserver/ubooquity",
+      "imageReference": "lscr.io/linuxserver/ubooquity:$$cap_ubooquity_version",
+      "hasVariables": true,
+      "currentVersion": "2.1.2",
+      "recommendedVersion": "3.1.0",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "3.1.0",
+        "versions": [
+          "3.1.0",
+          "version-3.1.0",
+          "3.1.0-ls74",
+          "arm64v8-3.1.0",
+          "amd64-3.1.0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "uptime-kuma.yml",
+      "serviceName": "$$cap_appname",
+      "image": "louislam/uptime-kuma",
+      "imageReference": "louislam/uptime-kuma:$$cap_kuma_version",
+      "hasVariables": true,
+      "currentVersion": "1.23.11",
+      "recommendedVersion": "nightly2",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "nightly2",
+        "versions": [
+          "nightly2",
+          "nightly2-rootless",
+          "base2",
+          "base2-slim",
+          "base3"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.0.2",
+        "releaseUrl": "https://github.com/louislam/uptime-kuma/releases/tag/2.0.2",
+        "publishedAt": "2025-10-22T17:03:54Z",
+        "versions": [
+          "2.0.2",
+          "2.0.1",
+          "2.0.0",
+          "1.23.17",
+          "1.23.16"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "valkey.yml",
+      "serviceName": "$$cap_appname",
+      "image": "valkey/valkey",
+      "imageReference": "valkey/valkey:$$cap_valkey_version",
+      "hasVariables": true,
+      "currentVersion": "8.0.1-alpine",
+      "recommendedVersion": "unstable-alpine3.21",
+      "updateType": "patch",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "unstable-alpine3.21",
+        "versions": [
+          "unstable-alpine3.21",
+          "unstable-alpine",
+          "unstable-bookworm",
+          "unstable",
+          "alpine3.22"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "verdaccio.yml",
+      "serviceName": "$$cap_appname",
+      "image": "verdaccio/verdaccio",
+      "imageReference": "verdaccio/verdaccio:$$cap__verdaccio_version",
+      "hasVariables": true,
+      "currentVersion": "3.11.6",
+      "recommendedVersion": "6.x-next",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "6.x-next",
+        "versions": [
+          "6.x-next",
+          "6.2",
+          "6",
+          "6.2.4",
+          "nightly-master"
+        ]
+      },
+      "github": {
+        "latestVersion": "6.2.4",
+        "releaseUrl": "https://github.com/verdaccio/verdaccio/releases/tag/v6.2.4",
+        "publishedAt": "2025-12-02T17:47:52Z",
+        "versions": [
+          "6.2.4",
+          "6.2.3",
+          "6.2.2",
+          "6.2.1",
+          "6.2.0"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "vikunja.yml",
+      "serviceName": "$$cap_appname",
+      "image": "vikunja/vikunja",
+      "imageReference": "vikunja/vikunja:$$cap_VIKUNJA_VERSION",
+      "hasVariables": true,
+      "currentVersion": "0.24",
+      "recommendedVersion": "unstable",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "unstable",
+        "versions": [
+          "unstable",
+          "1.0.0-rc3",
+          "1.0.0-rc2",
+          "1.0.0-rc1",
+          "1.0.0-rc0"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "vvveb.yml",
+      "serviceName": "$$cap_appname-vvveb",
+      "image": "vvveb/vvvebcms",
+      "imageReference": "vvveb/vvvebcms:$$cap_vvveb_version",
+      "hasVariables": true,
+      "currentVersion": "php8.3-fpm-alpine",
+      "recommendedVersion": "php8.5-fpm-alpine",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "php8.5-fpm-alpine",
+        "versions": [
+          "php8.5-fpm-alpine",
+          "php8.4-fpm-alpine",
+          "php8.4-apache",
+          "php8.3-fpm-alpine"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "wallabag.yml",
+      "serviceName": "$$cap_appname",
+      "image": "wallabag/wallabag",
+      "imageReference": "wallabag/wallabag:$$cap_wallabag_version",
+      "hasVariables": true,
+      "currentVersion": "2.4.0",
+      "recommendedVersion": "2.6.14",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "2.6.14",
+        "versions": [
+          "2.6.14",
+          "2.6.13",
+          "2.6.12",
+          "2.6.11",
+          "2.6.10"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "weblate.yml",
+      "serviceName": "$$cap_appname",
+      "image": "weblate/weblate",
+      "imageReference": "weblate/weblate:$$cap_weblate_version",
+      "hasVariables": true,
+      "currentVersion": "4.14.1-1",
+      "recommendedVersion": "bleeding-2025-12-02-b876c4269c293e3e02cfc46df9a3645fbd6e9fa5",
+      "updateType": "minor",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "bleeding-2025-12-02-b876c4269c293e3e02cfc46df9a3645fbd6e9fa5",
+        "versions": [
+          "bleeding-2025-12-02-b876c4269c293e3e02cfc46df9a3645fbd6e9fa5",
+          "bleeding",
+          "edge-2025-12-02-7d923ecaf0dbbdc0820a750c209e62db16935ff5",
+          "edge-2025-12-02-60d01e86bf3e6514ea521683fb53881198ed5557",
+          "5"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "wekan.yml",
+      "serviceName": "$$cap_appname",
+      "image": "wekanteam/wekan",
+      "imageReference": "wekanteam/wekan:$$cap_myapp_version",
+      "hasVariables": true,
+      "currentVersion": "v7.60",
+      "recommendedVersion": "v8.17",
+      "updateType": "major",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "v8.17",
+        "versions": [
+          "v8.17",
+          "v8.16",
+          "v8.15",
+          "v8.14",
+          "v8.12"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "wiki-js.yml",
+      "serviceName": "$$cap_appname",
+      "image": "requarks/wiki",
+      "imageReference": "requarks/wiki:$$cap_version",
+      "hasVariables": true,
+      "currentVersion": "2.5",
+      "recommendedVersion": "canary-arm64-2.5.0-dev.412",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "canary-arm64-2.5.0-dev.412",
+        "versions": [
+          "canary-arm64-2.5.0-dev.412",
+          "canary-2.5.0-dev.412",
+          "canary-arm64-2.5.0-dev.411",
+          "canary-2.5.0-dev.411",
+          "canary-arm64-2.5.0-dev.410"
+        ]
+      },
+      "github": {
+        "latestVersion": "2.5.308",
+        "releaseUrl": "https://github.com/requarks/wiki/releases/tag/v2.5.308",
+        "publishedAt": "2025-08-13T07:09:29Z",
+        "versions": [
+          "2.5.308",
+          "2.5.307",
+          "2.5.306",
+          "2.5.305",
+          "2.5.304"
+        ]
+      },
+      "note": "Docker Hub has a newer version than GitHub releases"
+    },
+    {
+      "file": "wordpress.yml",
+      "serviceName": "$$cap_appname-wordpress",
+      "image": "library/wordpress",
+      "imageReference": "wordpress:$$cap_wp_version",
+      "hasVariables": true,
+      "currentVersion": "6.7.1",
+      "recommendedVersion": "php8.1-fpm-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "php8.1-fpm-alpine",
+        "versions": [
+          "php8.1-fpm-alpine",
+          "beta-php8.5-fpm",
+          "beta-6.9-php8.5-fpm",
+          "beta-6.9-RC4-php8.5-fpm",
+          "beta-6-php8.5-fpm"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    },
+    {
+      "file": "yourls.yml",
+      "serviceName": "$$cap_appname",
+      "image": "library/yourls",
+      "imageReference": "yourls:$$cap_yourls_version",
+      "hasVariables": true,
+      "currentVersion": "1.9.2",
+      "recommendedVersion": "fpm-alpine",
+      "updateType": "other",
+      "source": "dockerhub",
+      "dockerHub": {
+        "latestVersion": "fpm-alpine",
+        "versions": [
+          "fpm-alpine",
+          "fpm",
+          "apache",
+          "1.10.2-fpm-alpine",
+          "1.10.2-fpm"
+        ]
+      },
+      "github": null,
+      "note": "Using Docker Hub (GitHub releases not available)"
+    }
+  ],
+  "summary": {
+    "major": 58,
+    "minor": 62,
+    "patch": 9,
+    "other": 79
+  },
+  "sources": {
+    "dockerhub": 196,
+    "github": 12,
+    "both": 5
+  }
+}
